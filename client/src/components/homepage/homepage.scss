@@ -1,0 +1,11 @@
+.homepage {
+    background-color: grey;
+    height: 100vh;
+    &__image-wrapper {
+        width: 95%;
+        border: solid;
+        margin: auto;
+        height: 100px;
+        background-color: lightblue;
+    }
+}
