@@ -1,11 +1,14 @@
 import React from 'react';
 import "../match/match.scss"
+import { Link } from "react-router-dom";
 class Match extends React.Component {
     render() {
 
         const { match } = this.props
         return (
-            <section className="match">
+            <Link className="match" to={{
+                pathname: "/match-info"
+            }}>
                 <div className="match__teams">
                     <div className="match__home-team">{match.homeTeam.team_name}</div>
                     <div className="match__away-team">{match.awayTeam.team_name}</div>
@@ -19,7 +22,7 @@ class Match extends React.Component {
                         <div src="" alt="" className="match__favourite-img"></div>
                     </div>
                 </div>
-            </section>
+            </Link>
         );
     }
 }

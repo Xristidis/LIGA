@@ -4,6 +4,9 @@
     width: 95%;
     margin: 10px auto;
     border: solid 1px;
+    text-decoration: none;
+    color: black;
+    
     &__teams {
         display: flex;
         flex-direction: column;

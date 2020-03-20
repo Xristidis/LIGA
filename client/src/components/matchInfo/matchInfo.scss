@@ -1,0 +1,37 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    &__teams {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin: auto;
+    }
+    &__home-team {
+        display: flex;
+        justify-content: center;
+        width: 35%;
+    }
+    &__away-team {
+        display: flex;
+        justify-content: center;
+        width: 35%;
+    }
+    &__scoreline {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin: auto;
+    }
+    &__home-score {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+    &__away-score {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+
+}
