@@ -5,6 +5,7 @@ const fs = require('fs');
 // get request at generatefixtures url
 const scoresFilePath = './data/scores.json';
 const dataFilePath = require('../data/data.json');
+const statsFilePath = require('../data/stats.json');
 
 //then create another route that pull fixtures from that.json file
 //  fixtures/ root route and fixtures/generate is where data is refreshed. 
@@ -68,9 +69,21 @@ router.get("/fixtures/generate", (_, res) => {
 router.get('/leagues/:id', (req, res) => {
     // console.log(req.params.id);
     res.json(dataFilePath.find(league => {
+
         return req.params.id === league.league_id;
     })
     );
 });
+
+router.get('/match', (req, res) => {
+    // console.log(req.params.id);
+    res.json(statsFilePath)
+});
+
+// router.get('/leagues/:id/fixture/:id', (req, res) => {
+//     // console.log(req.params.id);
+//     res.json(scoresFilePath)
+// });
+// for fixture data
 
 module.exports = router;

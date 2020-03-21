@@ -10,6 +10,7 @@ class Homepage extends React.Component {
 
     state = {
         matchData: [],
+        leaguePath: {}
     };
 
     convertPathToId = () => {
@@ -26,6 +27,7 @@ class Homepage extends React.Component {
                 leagueId = 530;
                 break;
         }
+        this.setState({ leaguePath: pathName });
         return leagueId;
     }
 
@@ -51,7 +53,7 @@ class Homepage extends React.Component {
     }
 
     render() {
-        // console.log(this.props);
+        console.log(this.state.leagueId);
         console.log(this.state.matchData);
         return (
             <main className="homepage">
@@ -60,7 +62,7 @@ class Homepage extends React.Component {
                         <img src="" alt="" className="homepage__image" />
                     </div>
                     {this.state.matchData.map(match => {
-                        return <Match match={match} />
+                        return <Match match={match} league={this.state.leaguePath} />
                     })}
                 </div>
                 <Navbar />

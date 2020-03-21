@@ -2,12 +2,15 @@ import React from 'react';
 import "../match/match.scss"
 import { Link } from "react-router-dom";
 class Match extends React.Component {
+
     render() {
 
         const { match } = this.props
+        const { league } = this.props
+
         return (
             <Link className="match" to={{
-                pathname: "/match-info"
+                pathname: `/match`
             }}>
                 <div className="match__teams">
                     <div className="match__home-team">{match.homeTeam.team_name}</div>
