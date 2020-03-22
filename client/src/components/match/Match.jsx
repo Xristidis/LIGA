@@ -6,11 +6,15 @@ class Match extends React.Component {
     render() {
 
         const { match } = this.props
-        const { league } = this.props
-
+        // const { league } = this.props
+        console.log({ match });
         return (
             <Link className="match" to={{
-                pathname: `/match`
+                pathname: `/match/${match.fixture_id}`,
+                homeTeam: {
+                    name: match.homeTeam.team_name
+                }
+
             }}>
                 <div className="match__teams">
                     <div className="match__home-team">{match.homeTeam.team_name}</div>
@@ -26,6 +30,8 @@ class Match extends React.Component {
                     </div>
                 </div>
             </Link>
+
+            //1. how do i send { match } to matchInfo.jsx?
         );
     }
 }

@@ -15,7 +15,7 @@ function App() {
           <Route path="/england" component={Homepage} />
           <Route path="/spain" component={Homepage} />
           <Route path="/champions-league" component={Homepage} />
-          <Route path="/match" component={MatchInfo} />
+          <Route path="/match/:match" component={MatchInfo} />
         </Switch>
       </BrowserRouter>
     </div>

@@ -6,6 +6,7 @@ const fs = require('fs');
 const scoresFilePath = './data/scores.json';
 const dataFilePath = require('../data/data.json');
 const statsFilePath = require('../data/stats.json');
+const lineupsFilePath = require('../data/lineups.json');
 
 //then create another route that pull fixtures from that.json file
 //  fixtures/ root route and fixtures/generate is where data is refreshed. 
@@ -75,9 +76,15 @@ router.get('/leagues/:id', (req, res) => {
     );
 });
 
-router.get('/match', (req, res) => {
+router.get('/match/:fixture_id', (req, res) => {
     // console.log(req.params.id);
+
     res.json(statsFilePath)
+});
+
+router.get('/match/:fixture_id', (req, res) => {
+    // console.log(req.params.id);
+    res.json(lineupsFilePath)
 });
 
 // router.get('/leagues/:id/fixture/:id', (req, res) => {

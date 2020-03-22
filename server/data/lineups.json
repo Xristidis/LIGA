@@ -1,0 +1,167 @@
+{
+    "api": {
+        "results": 2,
+        "lineUps": {
+            "Paris Saint Germain": {
+                "formation": "4-2-2-2",
+                "startXI": [
+                    {
+                        "number": "1",
+                        "player": "Keylor Navas"
+                    },
+                    {
+                        "number": "4",
+                        "player": "Thilo Kehrer"
+                    },
+                    {
+                        "number": "5",
+                        "player": "Marquinhos"
+                    },
+                    {
+                        "number": "3",
+                        "player": "Presnel Kimpembe"
+                    },
+                    {
+                        "number": "14",
+                        "player": "Juan Bernat"
+                    },
+                    {
+                        "number": "27",
+                        "player": "Idrissa Gueye"
+                    },
+                    {
+                        "number": "8",
+                        "player": "Leandro Paredes"
+                    },
+                    {
+                        "number": "11",
+                        "player": "Ángel Di María"
+                    },
+                    {
+                        "number": "10",
+                        "player": "Neymar"
+                    },
+                    {
+                        "number": "9",
+                        "player": "Edinson Cavani"
+                    },
+                    {
+                        "number": "19",
+                        "player": "Pablo Sarabia"
+                    }
+                ],
+                "substitutes": [
+                    {
+                        "number": "16",
+                        "player": "Sergio Rico"
+                    },
+                    {
+                        "number": "20",
+                        "player": "Layvin Kurzawa"
+                    },
+                    {
+                        "number": "35",
+                        "player": "Tanguy Kouassi"
+                    },
+                    {
+                        "number": "22",
+                        "player": "Abdou Diallo"
+                    },
+                    {
+                        "number": "23",
+                        "player": "Julian Draxler"
+                    },
+                    {
+                        "number": "7",
+                        "player": "Kylian Mbappé"
+                    },
+                    {
+                        "number": "18",
+                        "player": "Mauro Icardi"
+                    }
+                ],
+                "coach": "T. Tuchel"
+            },
+            "Borussia Dortmund": {
+                "formation": "3-4-3",
+                "startXI": [
+                    {
+                        "number": "1",
+                        "player": "Roman Bürki"
+                    },
+                    {
+                        "number": "26",
+                        "player": "Łukasz Piszczek"
+                    },
+                    {
+                        "number": "15",
+                        "player": "Mats Hummels"
+                    },
+                    {
+                        "number": "2",
+                        "player": "Dan-Axel Zagadou"
+                    },
+                    {
+                        "number": "5",
+                        "player": "Achraf Hakimi"
+                    },
+                    {
+                        "number": "27",
+                        "player": "Emre Can"
+                    },
+                    {
+                        "number": "28",
+                        "player": "Axel Witsel"
+                    },
+                    {
+                        "number": "13",
+                        "player": "Raphaël Guerreiro"
+                    },
+                    {
+                        "number": "23",
+                        "player": "Thorgan Hazard"
+                    },
+                    {
+                        "number": "17",
+                        "player": "Erling Braut Haaland"
+                    },
+                    {
+                        "number": "7",
+                        "player": "Jadon Sancho"
+                    }
+                ],
+                "substitutes": [
+                    {
+                        "number": "35",
+                        "player": "Marwin Hitz"
+                    },
+                    {
+                        "number": "29",
+                        "player": "Marcel Schmelzer"
+                    },
+                    {
+                        "number": "16",
+                        "player": "Manuel Akanji"
+                    },
+                    {
+                        "number": "32",
+                        "player": "Giovanni Reyna"
+                    },
+                    {
+                        "number": "10",
+                        "player": "Mario Götze"
+                    },
+                    {
+                        "number": "8",
+                        "player": "Mahmoud Dahoud"
+                    },
+                    {
+                        "number": "19",
+                        "player": "Julian Brandt"
+                    }
+                ],
+                "coach": "L. Favre"
+            }
+        }
+    }
+}

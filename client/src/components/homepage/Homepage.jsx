@@ -3,8 +3,6 @@ import Navbar from "../navbar/Navbar";
 import Match from "../match/Match";
 import axios from "axios";
 import "../homepage/homepage.scss"
-// import { log } from "util";
-
 
 class Homepage extends React.Component {
 
@@ -30,15 +28,6 @@ class Homepage extends React.Component {
         this.setState({ leaguePath: pathName });
         return leagueId;
     }
-
-    // posp = match.goalsHomeTeam || match.goalsAwayTeam;
-    // postponed = () => {
-    //     if (post = null) {
-    //         return posp = "posp"
-    //     }
-    // };
-
-
 
     componentDidMount() {
         const leagueId = this.convertPathToId();

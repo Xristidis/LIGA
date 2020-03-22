@@ -2,9 +2,9 @@ import React from 'react';
 import "../lobby/lobby.scss";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
-import england from "../../assets/england.svg";
-import spain from "../../assets/spain.svg"
-import CL from "../../assets/CL.png"
+import epl from "../../assets/epl-logo.png";
+import liga from "../../assets/liga-logo.png"
+import uefa from "../../assets/uefa-logo.png"
 
 
 class Lobby extends React.Component {
@@ -14,28 +14,31 @@ class Lobby extends React.Component {
         return (
             <main className="lobby">
                 <div className="lobby__wrapper">
-                    <h1>Choose Your League</h1>
+                    <h1 className="lobby__header">CHOOSE LEAGUE</h1>
                     <div className="lobby__button-wrapper">
                         <Link className="lobby__link" to={{
                             pathname: "/england"
                         }}>
                             <button className="lobby__button">
-                                <img className="lobby__competition" src={england}></img>
+                                <img className="lobby__competition" src={epl}></img>
                             </button>
+                            <div className="lobby__league-name">Premier League</div>
                         </Link>
                         <Link className="lobby__link" to={{
                             pathname: "/spain"
                         }}>
                             <button className="lobby__button">
-                                <img className="lobby__competition" src={spain}></img>
+                                <img className="lobby__competition" src={liga}></img>
                             </button>
+                            <div className="lobby__league-name">La Liga BBVA</div>
                         </Link>
                         <Link className="lobby__link" to={{
                             pathname: "/champions-league"
                         }}>
                             <button className="lobby__button">
-                                <img className="lobby__competition" src={CL}></img>
+                                <img className="lobby__competition" src={uefa}></img>
                             </button>
+                            <div className="lobby__league-name">UEFA Champions League</div>
                         </Link>
                         <Navbar />
                     </div>
