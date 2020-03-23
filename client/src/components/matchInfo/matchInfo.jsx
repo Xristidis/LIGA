@@ -83,15 +83,33 @@ class MatchInfo extends React.Component {
         console.log({ match });
         console.log(this.props.location.name);
         return (
-            <section className="info">
-                <div className="info__teams">
+            <section className="matchInfo-wrapper">
+                <div className="matchInfo">
+                    <div className="matchInfo__team-wrapper">
+                        <img className="matchInfo__team-logo" src={"https://media.api-sports.io/teams/33.png"} />
+                        <div className="matchInfo__team-name">Manchester United</div>
+                    </div>
+                    <div className="matchInfo__details-wrapper">
+                        <div className="matchInfo__date">Date</div>
+                        <div className="matchInfo__score-wrapper">
+                            <div className="matchInfo__home-score">2</div>
+                            <div>-</div>
+                            <div className="matchInfo__away-score">0</div>
+                        </div>
+                    </div>
+                    <div className="matchInfo__team-wrapper">
+                        <img className="matchInfo__team-logo" src={"https://media.api-sports.io/teams/42.png"} />
+                        <div className="matchInfo__team-name">Arsenal</div>
+                    </div>
+                </div>
+                {/* <div className="info__teams">
                     <div className="info__home-team">Napoli</div>
                     <div className="info__away-team">Barcelona</div>
                 </div>
                 <div className="info__scoreline">
                     <div className="info__home-score">2</div>
                     <div className="info__away-score">0</div>
-                </div>
+                </div> */}
                 <MatchInfoNav handleTabChange={this.handleTabChange} />
 
                 {this.state.currTab === 'info' && <MatchEvents events={this.state.matchEvents} />}

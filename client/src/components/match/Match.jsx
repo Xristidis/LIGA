@@ -8,15 +8,32 @@ class Match extends React.Component {
         const { match } = this.props
         // const { league } = this.props
         console.log({ match });
+
         return (
             <Link className="match" to={{
                 pathname: `/match/${match.fixture_id}`,
-                homeTeam: {
-                    name: match.homeTeam.team_name
-                }
-
+                // homeTeam: {
+                //     name: match.homeTeam.team_name
+                // }
             }}>
-                <div className="match__teams">
+                <div className="match__team-wrapper">
+                    <img className="match__team-logo" src={match.homeTeam.logo} />
+                    <div className="match__team-name">{match.homeTeam.team_name}</div>
+                </div>
+                <div className="match__details-wrapper">
+                    <div className="match__date">{match.event_date}</div>
+                    <div className="match__score-wrapper">
+                        <div className="match__home-score">{match.goalsHomeTeam}</div>
+                        <div>-</div>
+                        <div className="match__away-score">{match.goalsAwayTeam}</div>
+                    </div>
+                </div>
+                <div className="match__team-wrapper">
+                    <img className="match__team-logo" src={match.awayTeam.logo} />
+                    <div className="match__team-name">{match.awayTeam.team_name}</div>
+                </div>
+
+                {/* <div className="match__teams">
                     <div className="match__home-team">{match.homeTeam.team_name}</div>
                     <div className="match__away-team">{match.awayTeam.team_name}</div>
                 </div>
@@ -28,7 +45,7 @@ class Match extends React.Component {
                     <div className="match__favourite-wrapper">
                         <div src="" alt="" className="match__favourite-img"></div>
                     </div>
-                </div>
+                </div> */}
             </Link>
 
             //1. how do i send { match } to matchInfo.jsx?

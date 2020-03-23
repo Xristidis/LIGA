@@ -1,31 +1,74 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
 .match {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    align-items: center;
+    width: 90%;
+    height: 90px;
     margin: 10px auto;
-    border: solid 1px;
+    /* border: solid 1px; */
     text-decoration: none;
-    color: black;
-    
-    &__teams {
+    color: $mercury;
+    background-color: $score-blue;
+    border-radius: 5px;
+    &__team-wrapper {
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        height: 90%;
     }
-    &__score-fav-wrapper {
+    &__details-wrapper {
         display: flex;
-        width: 50px;
-        justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 90%;
     }
-    &__favourite-wrapper {
-        height: 100%;
+    &__team-logo {
+        width: 50%;
+    }
+    &__team-name {
+        font-size: .5rem;
+        font-weight: 500;
+    }
+
+    &__date {
+        color: $mercury;
+        font-size: .5rem;
+    }
+    &__score-wrapper {
         display: flex;
         align-items: center;
+        width: 100%;
+        height: 60%;
+        justify-content: space-evenly;
+        color: $mercury;
+        font-weight: 700;
     }
-    &__favourite-img {
-        background-color: yellow;
-        width: 20px;
-        height: 20px;
+    // &__teams {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: end;
+    // }
+    // &__score-fav-wrapper {
+    //     display: flex;
+    //     width: 50px;
+    //     justify-content: space-between;
+    // }
+    // &__favourite-wrapper {
+    //     height: 100%;
+    //     display: flex;
+    //     align-items: center;
+    // }
+    // &__favourite-img {
+    //     background-color: yellow;
+    //     width: 20px;
+    //     height: 20px;
 
-    }
+    // }
 }
