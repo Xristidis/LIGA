@@ -1,6 +1,7 @@
 import React from 'react';
 import "../matchInfo/matchInfo.scss"
 import MatchInfoNav from '../matchInfoNav/MatchInfoNav';
+import Navbar from "../navbar/Navbar"
 import MatchEvents from '../matchEvents/MatchEvents';
 import MatchStats from '../matchStats/MatchStats';
 import MatchLineups from '../matchLineups/MatchLineups';
@@ -11,62 +12,18 @@ import axios from "axios";
 class MatchInfo extends React.Component {
 
     state = {
-        currTab: "info",
+        currTab: "stats",
         matchStats: {},
-        matchEvents: {},
-        matchLineups: {}
     };
 
     componentDidMount() {
-
-        //     const [matchStats, matchLineups] = await Promise.all([
-        //         axios({
-        //             "method": "GET",
-        //             "url": "https://api-football-v1.p.rapidapi.com/lineups/292853",
-        //             "headers": {
-        //                 "content-type": "application/octet-stream",
-        //                 "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
-        //                 "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
-        //             }
-        //         }),
-        //         axios({
-        //             "method": "GET",
-        //             "url": "https://api-football-v1.p.rapidapi.com/statistics/fixture/292853",
-        //             "headers": {
-        //                 "content-type": "application/octet-stream",
-        //                 "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
-        //                 "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
-        //             }
-        //         })
-        //     ])
-        //         .then(res => {
-        //             console.log(res);
-        //             const matchStats = res.data.api.statistics;
-        //             const matchLineups = res.data.api.lineUps;
-        //             this.setState({
-        //                 // matchEvents: matchEvents,
-        //                 matchStats: matchStats,
-        //                 matchLineups: matchLineups
-        //             });
-
-        //         });
-
-
-
-        // }
+        // console.log(this.props.match.params.match);
         axios
-            .get(`http://localhost:8080/match/${this.props.match}`)
+            .get(`http://localhost:8080/match/${this.props.match.params.match}`)
             .then(res => {
-                // console.log(res.data.api);
-                const matchStats = res.data.api.statistics;
-                console.log(matchStats);
+                const matchStats = res.data;
+                // console.log(matchStats);
                 this.setState({ matchStats: matchStats });
-                return axios.get(`http://localhost:8080/match/${this.props.match}`)
-            })
-            .then(res => {
-                const matchLineups = res.data.api.lineUps;
-                console.log(res.data.api.lineUps);
-                this.setState({ matchLineups: matchLineups });
             });
     }
 
@@ -75,31 +32,49 @@ class MatchInfo extends React.Component {
 
     }
 
+
     render() {
-        // keep state of the current tab 
-        // match info nav will trigger a hanlder and update the state 
-        console.log(this.state);
+        let homeTeamName = ""
+        let awayTeamName = ""
+        let homeLogo = ""
+        let awayLogo = ""
+        let goalsHomeTeam = ""
+        let goalsAwayTeam = ""
+
+        if (this.state.matchStats.responseFixture !== undefined) {
+            // console.log(this.state.matchStats.responseFixture.homeTeam.team_name);
+            homeTeamName = this.state.matchStats.responseFixture.homeTeam.team_name
+            awayTeamName = this.state.matchStats.responseFixture.awayTeam.team_name
+            homeLogo = this.state.matchStats.responseFixture.homeTeam.logo
+            awayLogo = this.state.matchStats.responseFixture.awayTeam.logo
+            goalsHomeTeam = this.state.matchStats.responseFixture.goalsHomeTeam
+            goalsAwayTeam = this.state.matchStats.responseFixture.goalsAwayTeam
+            console.log(this.state.matchStats)
+        }
+        else {
+            // console.log("hello");
+        }
+        // console.log(homeTeamName);
         const { match } = this.props
-        console.log({ match });
-        console.log(this.props.location.name);
+
         return (
             <section className="matchInfo-wrapper">
                 <div className="matchInfo">
                     <div className="matchInfo__team-wrapper">
-                        <img className="matchInfo__team-logo" src={"https://media.api-sports.io/teams/33.png"} />
-                        <div className="matchInfo__team-name">Manchester United</div>
+                        <img className="matchInfo__team-logo" src={homeLogo} />
+                        <div className="matchInfo__team-name">{homeTeamName}</div>
                     </div>
                     <div className="matchInfo__details-wrapper">
-                        <div className="matchInfo__date">Date</div>
+                        <div className="matchInfo__date"></div>
                         <div className="matchInfo__score-wrapper">
-                            <div className="matchInfo__home-score">2</div>
+                            <div className="matchInfo__home-score">{goalsHomeTeam}</div>
                             <div>-</div>
-                            <div className="matchInfo__away-score">0</div>
+                            <div className="matchInfo__away-score">{goalsAwayTeam}</div>
                         </div>
                     </div>
                     <div className="matchInfo__team-wrapper">
-                        <img className="matchInfo__team-logo" src={"https://media.api-sports.io/teams/42.png"} />
-                        <div className="matchInfo__team-name">Arsenal</div>
+                        <img className="matchInfo__team-logo" src={awayLogo} />
+                        <div className="matchInfo__team-name">{awayTeamName}</div>
                     </div>
                 </div>
                 {/* <div className="info__teams">
@@ -112,9 +87,10 @@ class MatchInfo extends React.Component {
                 </div> */}
                 <MatchInfoNav handleTabChange={this.handleTabChange} />
 
-                {this.state.currTab === 'info' && <MatchEvents events={this.state.matchEvents} />}
-                {this.state.currTab === 'stats' && <MatchStats stats={this.state.matchStats} />}
-                {this.state.currTab === 'lineup' && <MatchLineups events={this.state.matchEvents} />}
+                {/* {this.state.currTab === 'info' && <MatchEvents matchEvents={this.state.matchStats} />} */}
+                {this.state.currTab === 'stats' && <MatchStats matchEvents={this.state.matchStats} />}
+                {this.state.currTab === 'lineup' && <MatchLineups matchEvents={this.state.matchStats} />}
+                <Navbar />
             </section>
         );
     }

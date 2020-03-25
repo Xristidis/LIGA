@@ -4,6 +4,7 @@
 .matchInfo-wrapper {
     display: flex;
     flex-direction: column;
+    background-color: $dark-blue;
 }
 .matchInfo {
     display: flex;
@@ -13,7 +14,9 @@
     height: 115px;
     text-decoration: none;
     color: #e1e1e1;
-    background-color: #292f3c;
+    background: linear-gradient(to top left, $blue, $green 90% );
+    font-size: 2rem;
+
     &__team-wrapper {
         display: flex;
         flex-direction: column;
@@ -34,8 +37,9 @@
         width: 50%;
     }
     &__team-name {
-        font-size: .5rem;
-        font-weight: 500;
+        font-size: .7rem;
+        font-weight: bold;
+        font-family: "martel-regular";
     }
 
     &__date {

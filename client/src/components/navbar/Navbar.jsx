@@ -3,11 +3,13 @@ import "../navbar/navbar.scss";
 import lobby from "../../assets/lobby.png";
 import login from "../../assets/login.png"
 import favs from "../../assets/favs.png"
+import { Link } from "react-router-dom";
+
 
 class Navbar extends React.Component {
     render() {
         return (
-            <main className="navbar">
+            <Link className="navbar" to="/">
                 <div className="navbar__link-wrapper">
                     <img className="navbar__icon" src={lobby} alt="" />
                     <span className="navbar__button-title">Lobby</span>
@@ -18,9 +20,9 @@ class Navbar extends React.Component {
                 </div>
                 <div className="navbar__link-wrapper">
                     <img className="navbar__icon" src={favs} alt="" />
-                    <span className="navbar__button-title">Favourties</span>
+                    <span className="navbar__button-title">Favourites</span>
                 </div>
-            </main>
+            </Link>
         );
     }
 }

@@ -8,6 +8,8 @@
     &__header {
         text-decoration: none;
         color: white;
+        font-family: "nunito-bold";
+
     }
     &__wrapper {
         width: 95%;
@@ -20,7 +22,7 @@
     }
     &__header {
         text-decoration: none;
-        color: white;
+        color: $mercury;
         margin: 0;
     }
     &__button-wrapper {
@@ -48,6 +50,8 @@
     }
     &__league-name {
         text-decoration: none;
-        color: white;
+        color: $mercury;
+        font-family: "nunito-regular";
+
     }
 }

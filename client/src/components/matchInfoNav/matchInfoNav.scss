@@ -1,6 +1,59 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/fonts.scss";
+
 .match-info-nav {
     display: flex;
-    width: 95%;
+    width: 90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 65px;
+    align-items: center;
+    color: $mercury;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
+
+.match-info-nav-underline {
+        width: 100%;
+        background: linear-gradient(to top left, $blue, $green);
+    height: 3px;
+    margin-top: 5px;
+    bottom: -5px;
+    position: absolute;
+    display: none;
+    // position: relative;
+}
+
+.match-info-nav-wrapper {
+    width: 32%;
+    position: relative;
+    cursor: pointer;
+    font-family: "nunito-bold";
+
+
+    &:hover .match-info-nav-underline {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.fixture {
+    &__info {
+        display: none;
+        &:hover .match-info-nav-underline {
+            display: inline;
+        } 
+    }
+    &__statistics {
+        &:hover .match-info-nav-underline {
+            display: inline;
+        }
+    }
+    &__lineups {
+        &:hover .match-info-nav-underline {
+            display: inline;
+        }
+    }
+}
+    

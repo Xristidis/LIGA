@@ -4,24 +4,17 @@ import { Link } from "react-router-dom";
 class Match extends React.Component {
 
     render() {
-
         const { match } = this.props
-        // const { league } = this.props
-        console.log({ match });
-
         return (
             <Link className="match" to={{
-                pathname: `/match/${match.fixture_id}`,
-                // homeTeam: {
-                //     name: match.homeTeam.team_name
-                // }
+                pathname: `/match/${match.fixture_id}`
             }}>
                 <div className="match__team-wrapper">
                     <img className="match__team-logo" src={match.homeTeam.logo} />
                     <div className="match__team-name">{match.homeTeam.team_name}</div>
                 </div>
                 <div className="match__details-wrapper">
-                    <div className="match__date">{match.event_date}</div>
+                    <div className="match__date">March 7th, 2020</div>
                     <div className="match__score-wrapper">
                         <div className="match__home-score">{match.goalsHomeTeam}</div>
                         <div>-</div>

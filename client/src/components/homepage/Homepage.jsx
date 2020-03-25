@@ -13,28 +13,29 @@ class Homepage extends React.Component {
 
     state = {
         matchData: [],
-        leaguePath: {}
+        leaguePath: {},
+        logo: ""
     };
 
     convertPathToId = () => {
         const pathName = this.props.location.pathname;
         let leagueId;
-        // let logo;
+        let logo = "";
         switch (pathName) {
-            case "/england":
+            case "/premier-league":
                 leagueId = 524;
-                // logo = epl;
+                logo = epl;
                 break;
-            case "/spain":
+            case "/la-liga":
                 leagueId = 775;
-                // logo = liga;
+                logo = liga;
                 break;
             case "/champions-league":
                 leagueId = 530;
-                // logo = uefa;
+                logo = uefa;
                 break;
         }
-        this.setState({ leaguePath: pathName });
+        this.setState({ leaguePath: pathName, logo });
         return leagueId;
 
     }
@@ -54,12 +55,13 @@ class Homepage extends React.Component {
     render() {
         console.log(this.state.leagueId);
         console.log(this.state.matchData);
+        let logo = this.state.logo
         return (
             <main className="homepage">
                 <div className="homepage__wrapper">
                     <div className="homepage__image-wrapper">
                         <div className="homepage__heading-wrapper">
-                            <img src={epl} alt="" className="homepage__image" />
+                            <img src={logo} alt="" className="homepage__image" />
                         </div>
                     </div>
                     <h1 className="homepage__header">RESULTS</h1>
@@ -67,7 +69,6 @@ class Homepage extends React.Component {
                         return <Match match={match} league={this.state.leaguePath} />
                     })}
                 </div>
-                <Navbar />
             </main>
         );
     }

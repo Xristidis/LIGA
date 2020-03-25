@@ -1,16 +1,14 @@
+// please ignore extra routes and json data files in folder tree as they are for phase 2 testing.
+
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();
 const fs = require('fs');
-// get request at generatefixtures url
-const scoresFilePath = './data/scores.json';
+const scoresFilePath = require('../data/scores.json');
 const dataFilePath = require('../data/data.json');
 const statsFilePath = require('../data/stats.json');
 const lineupsFilePath = require('../data/lineups.json');
 
-//then create another route that pull fixtures from that.json file
-//  fixtures/ root route and fixtures/generate is where data is refreshed. 
-// const data = {}
 const newScoresObj = { matchData: [] };
 
 router.get("/fixtures/generate", (_, res) => {
@@ -77,20 +75,11 @@ router.get('/leagues/:id', (req, res) => {
 });
 
 router.get('/match/:fixture_id', (req, res) => {
-    // console.log(req.params.id);
-
-    res.json(statsFilePath)
+    const fixture = scoresFilePath.leagues.find(object => {
+        return parseInt(req.params.fixture_id) === parseInt(object.responseFixture.fixture_id);
+    })
+    console.log(fixture)
+    res.json(fixture)
 });
-
-router.get('/match/:fixture_id', (req, res) => {
-    // console.log(req.params.id);
-    res.json(lineupsFilePath)
-});
-
-// router.get('/leagues/:id/fixture/:id', (req, res) => {
-//     // console.log(req.params.id);
-//     res.json(scoresFilePath)
-// });
-// for fixture data
 
 module.exports = router;

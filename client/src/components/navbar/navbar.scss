@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: $nav-blue;
+    text-decoration: none;
     &__link-wrapper {
         width: 25%;
     display: flex;
@@ -22,5 +23,9 @@
     }
     &__icon {
         width: 35%;
+    }
+    &__button-title {
+        text-decoration: none;
+        color: $mercury;
     }
 }

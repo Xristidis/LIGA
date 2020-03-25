@@ -1,5 +1,6 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
+@import "../../styles/fonts.scss";
 
 .match {
     display: flex;
@@ -34,12 +35,13 @@
     }
     &__team-name {
         font-size: .5rem;
-        font-weight: 500;
+        font-family: "martel-regular";        
     }
 
     &__date {
         color: $mercury;
         font-size: .5rem;
+        font-family: "martel-light";
     }
     &__score-wrapper {
         display: flex;
@@ -48,27 +50,7 @@
         height: 60%;
         justify-content: space-evenly;
         color: $mercury;
-        font-weight: 700;
+        font-family: "kanit-extra-bold";
+        font-size: 1.5rem;
     }
-    // &__teams {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: end;
-    // }
-    // &__score-fav-wrapper {
-    //     display: flex;
-    //     width: 50px;
-    //     justify-content: space-between;
-    // }
-    // &__favourite-wrapper {
-    //     height: 100%;
-    //     display: flex;
-    //     align-items: center;
-    // }
-    // &__favourite-img {
-    //     background-color: yellow;
-    //     width: 20px;
-    //     height: 20px;
-
-    // }
 }

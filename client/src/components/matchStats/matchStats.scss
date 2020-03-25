@@ -1,9 +1,33 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/fonts.scss";
+
 .stats {
+    background-color: $dark-blue;
+    color: $mercury;
+    padding: 0 0 95px 0;
 
     &__stat-wrapper {
         display: flex;
         width: 90%;
         margin: auto;
         justify-content: space-around;
+        align-items: center;
+        height: 55px;
+        border: solid 1px teal;
+        border-radius: 5px;
+        margin: 8px auto;
+    }
+    &__type {
+        width: 50%;
+        font-family: "martel-regular";
+        margin-top: 4px;
+
+    }
+    &__team {
+        font-family: "kanit-extra-bold";
+        font-size: 1.5rem;
+        width: 25%;
+
     }
 }

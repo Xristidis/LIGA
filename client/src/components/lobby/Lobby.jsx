@@ -17,7 +17,7 @@ class Lobby extends React.Component {
                     <h1 className="lobby__header">CHOOSE LEAGUE</h1>
                     <div className="lobby__button-wrapper">
                         <Link className="lobby__link" to={{
-                            pathname: "/england"
+                            pathname: "/premier-league"
                         }}>
                             <button className="lobby__button">
                                 <img className="lobby__competition" src={epl}></img>
@@ -25,7 +25,7 @@ class Lobby extends React.Component {
                             <div className="lobby__league-name">Premier League</div>
                         </Link>
                         <Link className="lobby__link" to={{
-                            pathname: "/spain"
+                            pathname: "/la-liga"
                         }}>
                             <button className="lobby__button">
                                 <img className="lobby__competition" src={liga}></img>

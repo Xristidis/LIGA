@@ -4,6 +4,9 @@
 .homepage {
     background-color: $dark-blue;
     height: 100%;
+    &__wrapper {
+        padding-bottom: 95px;
+    }
     &__image-wrapper {
         position: relative;
         width: 100%;
@@ -11,7 +14,7 @@
         background: url(../../assets/hero-image.png); 
         height: 150px;
     background-size: cover;
-    background-position: bottom;
+    background-position-y: 17%;
     }
     &__heading-wrapper {
         width: 80px;
