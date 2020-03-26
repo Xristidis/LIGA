@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.homepage {
+    background-color: $dark-blue;
+    height: 100%;
+    &__wrapper {
+        padding-bottom: 95px;
+    }
+    &__image-wrapper {
+        position: relative;
+        width: 100%;
+        margin: auto; 
+        background: url(../../assets/hero-image.png); 
+        height: 150px;
+    background-size: cover;
+    background-position-y: 17%;
+    }
+    &__heading-wrapper {
+        width: 80px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -40px;
+    }
+    &__image {
+        width: 50px;
+    }
+    &__header {
+        color: $mercury;
+        font-weight: 500;
+    }
+}

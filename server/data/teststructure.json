@@ -1,0 +1,38 @@
+{
+    "leagues": [
+        {
+            "league_id": 1,
+            "league_name": "Spain",
+            "fixtures": {
+                "fixture_id": 157812,
+                "alottadata": "lots",
+                "event": {
+                    "event_data": "api_data"
+                },
+                "stats": {
+                    "stats_data": "api_data"
+                },
+                "lineups": {
+                    "lineups_data": "api_data"
+                }
+            }
+        },
+        {
+            "league_id": 2,
+            "league_name": "pooo",
+            "fixtures": {
+                "fixture_id": 157812,
+                "alottadata": "lots",
+                "event": {
+                    "event_data": "api_data"
+                },
+                "stats": {
+                    "stats_data": "api_data"
+                },
+                "lineups": {
+                    "lineups_data": "api_data"
+                }
+            }
+        }
+    ]
+}

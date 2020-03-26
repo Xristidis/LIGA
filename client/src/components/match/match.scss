@@ -1,0 +1,56 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/fonts.scss";
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 90px;
+    margin: 10px auto;
+    /* border: solid 1px; */
+    text-decoration: none;
+    color: $mercury;
+    background-color: $score-blue;
+    border-radius: 5px;
+    &__team-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        height: 90%;
+    }
+    &__details-wrapper {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 90%;
+    }
+    &__team-logo {
+        width: 50%;
+    }
+    &__team-name {
+        font-size: .5rem;
+        font-family: "martel-regular";        
+    }
+
+    &__date {
+        color: $mercury;
+        font-size: .5rem;
+        font-family: "martel-light";
+    }
+    &__score-wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60%;
+        justify-content: space-evenly;
+        color: $mercury;
+        font-family: "kanit-extra-bold";
+        font-size: 1.5rem;
+    }
+}

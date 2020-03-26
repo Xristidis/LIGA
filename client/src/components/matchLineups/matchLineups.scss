@@ -1,0 +1,79 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/fonts.scss";
+
+.lineups {
+    display: flex;
+    flex-direction: column;
+    background-color: $dark-blue;
+    color: $mercury;
+    padding-bottom: 105px;
+    &__team-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    &__team-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+        font-family: "martelSans";
+    }
+    &__team-heading-info {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    &__team-name {
+        margin: 0 0 0 0;
+        font-family: "martel-bold";
+    }
+    &__team-formation {
+        font-family: "martel-regular";
+
+    }
+    &__team-logo-wrapper {
+        height: 60%;
+    }
+    &__team-logo {
+        height: 100%;
+    }
+    &__box-home {
+        border: 1px solid teal;
+        border-radius: 5px;
+    }
+    &__box-away {
+        border: 1px solid orange;
+        border-radius: 5px;
+    }
+    &__player {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 2px auto;
+        font-family: "martel-regular";
+
+    }
+    &__player-data-one {
+        display: flex;
+        width: 75%;
+        justify-content: end;
+    }
+    &__player-pos {
+        margin-right: 10px;
+        width: 15%;
+        text-align: initial;
+    }
+    &__player-number-wrapper {
+        width: 6%;
+        display: flex;
+        justify-content: center;
+    }
+    &__player-number {
+        font-weight: bold;
+    }
+}
