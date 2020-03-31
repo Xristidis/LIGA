@@ -3,14 +3,15 @@ import "../matchLineups/matchLineups.scss"
 class MatchLineups extends React.Component {
 
     render() {
+
         let homeTeamName = this.props.matchEvents.responseFixture.homeTeam.team_name
         let awayTeamName = this.props.matchEvents.responseFixture.awayTeam.team_name
         let homeLogo = this.props.matchEvents.responseFixture.homeTeam.logo
         let awayLogo = this.props.matchEvents.responseFixture.awayTeam.logo
-        let homeFormation = this.props.matchEvents.lineUps[homeTeamName].formation
-        let awayFormation = this.props.matchEvents.lineUps[awayTeamName].formation
+        let homeFormation = this.props.matchEvents.lineups[homeTeamName].formation
+        let awayFormation = this.props.matchEvents.lineups[awayTeamName].formation
         let { matchEvents } = this.props;
-        // console.log(this.props.matchEvents)
+        console.log(this.props.matchEvents)
         return (
             <section className="lineups">
                 <div className="lineups__team-wrapper">
@@ -24,7 +25,7 @@ class MatchLineups extends React.Component {
                         </div>
                     </div>
                     <div className="lineups__box-home">
-                        {this.props.matchEvents.lineUps[homeTeamName].startXI.map(player => {
+                        {this.props.matchEvents.lineups[homeTeamName].startXI.map(player => {
                             return (
                                 <div className="lineups__player">
                                     <div className="lineups__player-data-one">
@@ -50,7 +51,7 @@ class MatchLineups extends React.Component {
                         </div>
                     </div>
                     <div className="lineups__box-away">
-                        {this.props.matchEvents.lineUps[awayTeamName].startXI.map(player => {
+                        {this.props.matchEvents.lineups[awayTeamName].startXI.map(player => {
                             return (
                                 <div className="lineups__player">
                                     <div className="lineups__player-data-one">
