@@ -39,6 +39,168 @@
                     "penalty": null
                 }
             },
+            "lineUps": {
+                "Liverpool": {
+                    "coach": "J. Klopp",
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "number": "13",
+                            "player": "Adrián"
+                        },
+                        {
+                            "number": "4",
+                            "player": "V. van Dijk"
+                        },
+                        {
+                            "number": "12",
+                            "player": "J. Gomez"
+                        },
+                        {
+                            "number": "66",
+                            "player": "T. Alexander-Arnold"
+                        },
+                        {
+                            "number": "7",
+                            "player": "J. Milner"
+                        },
+                        {
+                            "number": "5",
+                            "player": "G. Wijnaldum"
+                        },
+                        {
+                            "number": "15",
+                            "player": "A. Oxlade-Chamberlain"
+                        },
+                        {
+                            "number": "3",
+                            "player": "Fabinho"
+                        },
+                        {
+                            "number": "9",
+                            "player": "Roberto Firmino"
+                        },
+                        {
+                            "number": "11",
+                            "player": "Mohamed Salah"
+                        },
+                        {
+                            "number": "10",
+                            "player": "S. Mané"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "number": "20",
+                            "player": "A. Lallana"
+                        },
+                        {
+                            "number": "27",
+                            "player": "D. Origi"
+                        },
+                        {
+                            "number": "18",
+                            "player": "T. Minamino"
+                        },
+                        {
+                            "number": "22",
+                            "player": "A. Lonergan"
+                        },
+                        {
+                            "number": "32",
+                            "player": "J. Matip"
+                        },
+                        {
+                            "number": "76",
+                            "player": "N. Williams"
+                        },
+                        {
+                            "number": "8",
+                            "player": "N. Keïta"
+                        }
+                    ]
+                },
+                "Bournemouth": {
+                    "coach": "E. Howe",
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "number": "12",
+                            "player": "A. Ramsdale"
+                        },
+                        {
+                            "number": "15",
+                            "player": "A. Smith"
+                        },
+                        {
+                            "number": "3",
+                            "player": "S. Cook"
+                        },
+                        {
+                            "number": "5",
+                            "player": "N. Aké"
+                        },
+                        {
+                            "number": "17",
+                            "player": "J. Stacey"
+                        },
+                        {
+                            "number": "19",
+                            "player": "J. Stanislas"
+                        },
+                        {
+                            "number": "24",
+                            "player": "R. Fraser"
+                        },
+                        {
+                            "number": "8",
+                            "player": "J. Lerma"
+                        },
+                        {
+                            "number": "16",
+                            "player": "L. Cook"
+                        },
+                        {
+                            "number": "29",
+                            "player": "P. Billing"
+                        },
+                        {
+                            "number": "13",
+                            "player": "C. Wilson"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "number": "25",
+                            "player": "J. Simpson"
+                        },
+                        {
+                            "number": "9",
+                            "player": "D. Solanke"
+                        },
+                        {
+                            "number": "4",
+                            "player": "D. Gosling"
+                        },
+                        {
+                            "number": "21",
+                            "player": "Diego Rico"
+                        },
+                        {
+                            "number": "6",
+                            "player": "A. Surman"
+                        },
+                        {
+                            "number": "1",
+                            "player": "A. Boruc"
+                        },
+                        {
+                            "number": "44",
+                            "player": "S. Surridge"
+                        }
+                    ]
+                }
+            },
             "stats": {
                 "Shots on Goal": {
                     "home": "6",
@@ -449,274 +611,274 @@
                     "comments": null
                 }
             ],
-            "lineUps": {
-                "Liverpool": {
-                    "coach": "J. Klopp",
-                    "coach_id": 1,
-                    "formation": "4-3-3",
+            "lineups": {
+                "Wolves": {
+                    "coach": "Nuno Espírito Santo",
+                    "coach_id": 16,
+                    "formation": "3-5-2",
                     "startXI": [
                         {
-                            "team_id": 40,
-                            "player_id": 18812,
-                            "player": "Adrián",
-                            "number": 13,
-                            "pos": "G"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 290,
-                            "player": "V. van Dijk",
-                            "number": 4,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 284,
-                            "player": "J. Gomez",
-                            "number": 12,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 283,
-                            "player": "T. Alexander-Arnold",
-                            "number": 66,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 296,
-                            "player": "J. Milner",
-                            "number": 7,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 300,
-                            "player": "G. Wijnaldum",
-                            "number": 5,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 297,
-                            "player": "A. Oxlade-Chamberlain",
-                            "number": 15,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 299,
-                            "player": "Fabinho",
-                            "number": 3,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 302,
-                            "player": "Roberto Firmino",
-                            "number": 9,
-                            "pos": "F"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 306,
-                            "player": "Mohamed Salah",
+                            "team_id": 39,
+                            "player_id": 2674,
+                            "player": "Rui Patrício",
                             "number": 11,
-                            "pos": "F"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 304,
-                            "player": "S. Mané",
-                            "number": 10,
-                            "pos": "F"
-                        }
-                    ],
-                    "substitutes": [
-                        {
-                            "team_id": 40,
-                            "player_id": 295,
-                            "player": "A. Lallana",
-                            "number": 20,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 305,
-                            "player": "D. Origi",
-                            "number": 27,
-                            "pos": "F"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 1101,
-                            "player": "T. Minamino",
-                            "number": 18,
-                            "pos": "F"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 20224,
-                            "player": "A. Lonergan",
-                            "number": 22,
                             "pos": "G"
                         },
                         {
-                            "team_id": 40,
-                            "player_id": 286,
-                            "player": "J. Matip",
-                            "number": 32,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 138780,
-                            "player": "N. Williams",
-                            "number": 76,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 40,
-                            "player_id": 294,
-                            "player": "N. Keïta",
-                            "number": 8,
-                            "pos": "M"
-                        }
-                    ]
-                },
-                "Bournemouth": {
-                    "coach": "E. Howe",
-                    "coach_id": 5,
-                    "formation": "4-1-4-1",
-                    "startXI": [
-                        {
-                            "team_id": 35,
-                            "player_id": 20355,
-                            "player": "A. Ramsdale",
-                            "number": 12,
-                            "pos": "G"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 18869,
-                            "player": "A. Smith",
+                            "team_id": 39,
+                            "player_id": 18739,
+                            "player": "W. Boly",
                             "number": 15,
                             "pos": "D"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18863,
-                            "player": "S. Cook",
-                            "number": 3,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 18861,
-                            "player": "N. Aké",
-                            "number": 5,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 19769,
-                            "player": "J. Stacey",
-                            "number": 17,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 18878,
-                            "player": "J. Stanislas",
-                            "number": 19,
+                            "team_id": 39,
+                            "player_id": 18742,
+                            "player": "M. Doherty",
+                            "number": 2,
                             "pos": "M"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18873,
-                            "player": "R. Fraser",
-                            "number": 24,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 2490,
-                            "player": "J. Lerma",
-                            "number": 8,
-                            "pos": "M"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 18872,
-                            "player": "L. Cook",
+                            "team_id": 39,
+                            "player_id": 18741,
+                            "player": "C. Coady",
                             "number": 16,
-                            "pos": "M"
+                            "pos": "D"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 2734,
-                            "player": "P. Billing",
+                            "team_id": 39,
+                            "player_id": 18745,
+                            "player": "Rúben Vinagre",
                             "number": 29,
                             "pos": "M"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 2939,
-                            "player": "C. Wilson",
-                            "number": 13,
+                            "team_id": 39,
+                            "player_id": 2677,
+                            "player": "João Moutinho",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 2716,
+                            "player": "R. Saïss",
+                            "number": 27,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 2922,
+                            "player": "L. Dendoncker",
+                            "number": 32,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 2676,
+                            "player": "Rúben Neves",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 2887,
+                            "player": "R. Jiménez",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 2678,
+                            "player": "Diogo Jota",
+                            "number": 18,
                             "pos": "F"
                         }
                     ],
                     "substitutes": [
                         {
-                            "team_id": 35,
-                            "player_id": 18868,
-                            "player": "J. Simpson",
-                            "number": 25,
-                            "pos": "D"
-                        },
-                        {
-                            "team_id": 35,
-                            "player_id": 18883,
-                            "player": "D. Solanke",
-                            "number": 9,
+                            "team_id": 39,
+                            "player_id": 18753,
+                            "player": "Adama Traoré",
+                            "number": 37,
                             "pos": "F"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18874,
-                            "player": "D. Gosling",
-                            "number": 4,
+                            "team_id": 39,
+                            "player_id": 1605,
+                            "player": "Daniel Podence",
+                            "number": 10,
                             "pos": "M"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18867,
-                            "player": "Diego Rico",
-                            "number": 21,
+                            "team_id": 39,
+                            "player_id": 82022,
+                            "player": "O. Buur",
+                            "number": 59,
                             "pos": "D"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18879,
-                            "player": "A. Surman",
+                            "team_id": 39,
+                            "player_id": 1853,
+                            "player": "Bruno Jordão",
                             "number": 6,
                             "pos": "M"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18859,
-                            "player": "A. Boruc",
+                            "team_id": 39,
+                            "player_id": 18744,
+                            "player": "M. Kilman",
+                            "number": 49,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 1864,
+                            "player": "Pedro Neto",
+                            "number": 7,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 39,
+                            "player_id": 18737,
+                            "player": "J. Ruddy",
+                            "number": 21,
+                            "pos": "G"
+                        }
+                    ]
+                },
+                "Brighton": {
+                    "coach": "G. Potter",
+                    "coach_id": 12,
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "team_id": 51,
+                            "player_id": 2741,
+                            "player": "M. Ryan",
                             "number": 1,
                             "pos": "G"
                         },
                         {
-                            "team_id": 35,
-                            "player_id": 18884,
-                            "player": "S. Surridge",
-                            "number": 44,
+                            "team_id": 51,
+                            "player_id": 19265,
+                            "player": "A. Webster",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18961,
+                            "player": "D. Burn",
+                            "number": 33,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18963,
+                            "player": "L. Dunk",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18965,
+                            "player": "Martín Montoya",
+                            "number": 22,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18975,
+                            "player": "D. Pröpper",
+                            "number": 24,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 19050,
+                            "player": "A. Mooy",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18973,
+                            "player": "S. March",
+                            "number": 20,
                             "pos": "F"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18968,
+                            "player": "Y. Bissouma",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 1946,
+                            "player": "L. Trossard",
+                            "number": 11,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 19364,
+                            "player": "N. Maupay",
+                            "number": 7,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 51,
+                            "player_id": 6716,
+                            "player": "A. Mac Allister",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 2700,
+                            "player": "A. Jahanbakhsh",
+                            "number": 16,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18977,
+                            "player": "D. Stephens",
+                            "number": 6,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18962,
+                            "player": "S. Duffy",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18982,
+                            "player": "G. Murray",
+                            "number": 17,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18970,
+                            "player": "P. Groß",
+                            "number": 13,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 51,
+                            "player_id": 18958,
+                            "player": "D. Button",
+                            "number": 27,
+                            "pos": "G"
                         }
                     ]
                 }
@@ -958,7 +1120,279 @@
                     "detail": "R. Snodgrass",
                     "comments": null
                 }
-            ]
+            ],
+            "lineups": {
+                "Arsenal": {
+                    "coach": "Mikel Arteta",
+                    "coach_id": 7248,
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "team_id": 42,
+                            "player_id": 1438,
+                            "player": "B. Leno",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 2283,
+                            "player": "David Luiz",
+                            "number": 23,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1450,
+                            "player": "S. Papastathopoulos",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 46792,
+                            "player": "Pablo Marí",
+                            "number": 22,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1458,
+                            "player": "M. Özil",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1464,
+                            "player": "G. Xhaka",
+                            "number": 34,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 748,
+                            "player": "Dani Ceballos",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1460,
+                            "player": "B. Saka",
+                            "number": 77,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1465,
+                            "player": "P. Aubameyang",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 3246,
+                            "player": "N. Pépé",
+                            "number": 19,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1468,
+                            "player": "E. Nketiah",
+                            "number": 30,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 42,
+                            "player_id": 1467,
+                            "player": "A. Lacazette",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 727,
+                            "player": "R. Nelson",
+                            "number": 24,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1439,
+                            "player": "Bellerín",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 19599,
+                            "player": "E. Martínez",
+                            "number": 26,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1454,
+                            "player": "M. Guendouzi",
+                            "number": 29,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 1463,
+                            "player": "J. Willock",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 42,
+                            "player_id": 127769,
+                            "player": "Martinelli",
+                            "number": 35,
+                            "pos": "M"
+                        }
+                    ]
+                },
+                "West Ham": {
+                    "coach": "D. Moyes",
+                    "coach_id": 5662,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 48,
+                            "player_id": 2997,
+                            "player": "Ł. Fabiański",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18817,
+                            "player": "A. Ogbonna",
+                            "number": 21,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18813,
+                            "player": "A. Cresswell",
+                            "number": 3,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18814,
+                            "player": "I. Diop",
+                            "number": 23,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18826,
+                            "player": "M. Noble",
+                            "number": 16,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18819,
+                            "player": "M. Antonio",
+                            "number": 30,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 2937,
+                            "player": "D. Rice",
+                            "number": 41,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 1697,
+                            "player": "Pablo Fornals",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 1826,
+                            "player": "S. Haller",
+                            "number": 22,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 19428,
+                            "player": "J. Bowen",
+                            "number": 17,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 193296,
+                            "player": "J. Ngakia",
+                            "number": 52,
+                            "pos": "D"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 48,
+                            "player_id": 1243,
+                            "player": "T. Souček",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 2412,
+                            "player": "Felipe Anderson",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18828,
+                            "player": "R. Snodgrass",
+                            "number": 11,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 19229,
+                            "player": "D. Randolph",
+                            "number": 35,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 2473,
+                            "player": "M. Lanzini",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 18818,
+                            "player": "P. Zabaleta",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 48,
+                            "player_id": 2500,
+                            "player": "F. Balbuena",
+                            "number": 4,
+                            "pos": "D"
+                        }
+                    ]
+                }
+            }
         },
         {
             "responseFixture": {
@@ -1235,7 +1669,279 @@
                     "detail": "Yellow Card",
                     "comments": "Roughing"
                 }
-            ]
+            ],
+            "lineups": {
+                "Crystal Palace": {
+                    "coach": "R. Hodgson",
+                    "coach_id": 9,
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "team_id": 52,
+                            "player_id": 18835,
+                            "player": "Guaita",
+                            "number": 31,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 2281,
+                            "player": "G. Cahill",
+                            "number": 24,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18839,
+                            "player": "S. Dann",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18847,
+                            "player": "J. Ward",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18845,
+                            "player": "P. van Aanholt",
+                            "number": 3,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18849,
+                            "player": "J. McArthur",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18763,
+                            "player": "J. McCarthy",
+                            "number": 22,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 2991,
+                            "player": "C. Kouyaté",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 2928,
+                            "player": "C. Benteke",
+                            "number": 17,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 3428,
+                            "player": "J. Ayew",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 3247,
+                            "player": "W. Zaha",
+                            "number": 11,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 52,
+                            "player_id": 18852,
+                            "player": "L. Milivojević",
+                            "number": 4,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18854,
+                            "player": "A. Townsend",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18851,
+                            "player": "M. Meyer",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18836,
+                            "player": "W. Hennessey",
+                            "number": 13,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18853,
+                            "player": "J. Riedewald",
+                            "number": 44,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18843,
+                            "player": "J. Schlupp",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 52,
+                            "player_id": 18840,
+                            "player": "M. Kelly",
+                            "number": 34,
+                            "pos": "D"
+                        }
+                    ]
+                },
+                "Watford": {
+                    "coach": "N. Pearson",
+                    "coach_id": 3594,
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "team_id": 38,
+                            "player_id": 18791,
+                            "player": "B. Foster",
+                            "number": 26,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18793,
+                            "player": "C. Cathcart",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18797,
+                            "player": "C. Kabasele",
+                            "number": 27,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18794,
+                            "player": "Kiko Femenía",
+                            "number": 21,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18799,
+                            "player": "A. Masina",
+                            "number": 11,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18802,
+                            "player": "E. Capoue",
+                            "number": 29,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 2475,
+                            "player": "R. Pereyra",
+                            "number": 37,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18805,
+                            "player": "A. Doucouré",
+                            "number": 16,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18806,
+                            "player": "W. Hughes",
+                            "number": 19,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18808,
+                            "player": "T. Deeney",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 2218,
+                            "player": "I. Sarr",
+                            "number": 23,
+                            "pos": "M"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 38,
+                            "player_id": 1469,
+                            "player": "D. Welbeck",
+                            "number": 10,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 30812,
+                            "player": "I. Pussetto",
+                            "number": 33,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18810,
+                            "player": "A. Gray",
+                            "number": 18,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18803,
+                            "player": "N. Chalobah",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18789,
+                            "player": "Gomes",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 18798,
+                            "player": "A. Mariappa",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 38,
+                            "player_id": 19147,
+                            "player": "C. Dawson",
+                            "number": 4,
+                            "pos": "D"
+                        }
+                    ]
+                }
+            }
         },
         {
             "responseFixture": {
@@ -1434,7 +2140,279 @@
                     "detail": "S. Berge",
                     "comments": null
                 }
-            ]
+            ],
+            "lineups": {
+                "Sheffield Utd": {
+                    "coach": "C. Wilder",
+                    "coach_id": 6,
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "team_id": 62,
+                            "player_id": 19088,
+                            "player": "D. Henderson",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19091,
+                            "player": "C. Basham",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19097,
+                            "player": "E. Stevens",
+                            "number": 3,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19090,
+                            "player": "G. Baldock",
+                            "number": 2,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19093,
+                            "player": "J. Egan",
+                            "number": 12,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19095,
+                            "player": "J. O'Connell",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19102,
+                            "player": "J. Fleck",
+                            "number": 4,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19105,
+                            "player": "O. Norwood",
+                            "number": 16,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19104,
+                            "player": "J. Lundstram",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19109,
+                            "player": "B. Sharp",
+                            "number": 10,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19337,
+                            "player": "O. McBurnie",
+                            "number": 9,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 62,
+                            "player_id": 19302,
+                            "player": "B. Osborn",
+                            "number": 23,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 19108,
+                            "player": "D. McGoldrick",
+                            "number": 17,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 1934,
+                            "player": "S. Berge",
+                            "number": 32,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 8924,
+                            "player": "M. Verrips",
+                            "number": 21,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 971,
+                            "player": "P. Retsos",
+                            "number": 29,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 18882,
+                            "player": "L. Mousset",
+                            "number": 22,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 62,
+                            "player_id": 18759,
+                            "player": "P. Jagielka",
+                            "number": 15,
+                            "pos": "D"
+                        }
+                    ]
+                },
+                "Norwich": {
+                    "coach": "D. Farke",
+                    "coach_id": 2,
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "team_id": 71,
+                            "player_id": 19061,
+                            "player": "T. Krul",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19066,
+                            "player": "G. Hanley",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19073,
+                            "player": "B. Godfrey",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19076,
+                            "player": "J. Lewis",
+                            "number": 12,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19070,
+                            "player": "M. Aarons",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19079,
+                            "player": "A. Tettey",
+                            "number": 27,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19077,
+                            "player": "K. McLean",
+                            "number": 23,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 25349,
+                            "player": "O. Duda",
+                            "number": 25,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19071,
+                            "player": "E. Buendía",
+                            "number": 17,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19072,
+                            "player": "T. Cantwell",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19085,
+                            "player": "T. Pukki",
+                            "number": 22,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 71,
+                            "player_id": 25643,
+                            "player": "J. Drmic",
+                            "number": 20,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19082,
+                            "player": "M. Vrančić",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 130417,
+                            "player": "A. Idah",
+                            "number": 35,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 720,
+                            "player": "L. Rupp",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19078,
+                            "player": "M. Stiepermann",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19062,
+                            "player": "M. McGovern",
+                            "number": 33,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 71,
+                            "player_id": 19069,
+                            "player": "C. Zimmermann",
+                            "number": 6,
+                            "pos": "D"
+                        }
+                    ]
+                }
+            }
         },
         {
             "responseFixture": {
@@ -1672,7 +2650,279 @@
                     "detail": "Yellow Card",
                     "comments": "Unsportsmanlike conduct"
                 }
-            ]
+            ],
+            "lineups": {
+                "Southampton": {
+                    "coach": "R. Hasenhüttl",
+                    "coach_id": 8,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 41,
+                            "player_id": 18935,
+                            "player": "A. McCarthy",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18936,
+                            "player": "R. Bertrand",
+                            "number": 21,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18940,
+                            "player": "J. Stephens",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 2999,
+                            "player": "J. Bednarek",
+                            "number": 35,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18942,
+                            "player": "Y. Valery",
+                            "number": 43,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 2735,
+                            "player": "P. Højbjerg",
+                            "number": 23,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 2938,
+                            "player": "J. Ward-Prowse",
+                            "number": 16,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 2710,
+                            "player": "S. Boufal",
+                            "number": 19,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 2114,
+                            "player": "M. Djenepo",
+                            "number": 12,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18956,
+                            "player": "S. Long",
+                            "number": 7,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18955,
+                            "player": "D. Ings",
+                            "number": 9,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 41,
+                            "player_id": 19524,
+                            "player": "C. Adams",
+                            "number": 10,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18957,
+                            "player": "M. Obafemi",
+                            "number": 20,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 171,
+                            "player": "K. Walker-Peters",
+                            "number": 24,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 25287,
+                            "player": "K. Danso",
+                            "number": 38,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18949,
+                            "player": "Oriol Romeu",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18943,
+                            "player": "J. Vestergaard",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 41,
+                            "player_id": 18933,
+                            "player": "A. Gunn",
+                            "number": 28,
+                            "pos": "G"
+                        }
+                    ]
+                },
+                "Newcastle": {
+                    "coach": "S. Bruce",
+                    "coach_id": 17,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 34,
+                            "player_id": 18886,
+                            "player": "M. Dúbravka",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 167,
+                            "player": "D. Rose",
+                            "number": 28,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18893,
+                            "player": "F. Fernández",
+                            "number": 18,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18894,
+                            "player": "J. Lascelles",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18896,
+                            "player": "Javi Manquillo",
+                            "number": 19,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18904,
+                            "player": "J. Shelvey",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18903,
+                            "player": "M. Ritchie",
+                            "number": 11,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18899,
+                            "player": "I. Hayden",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 2507,
+                            "player": "M. Almirón",
+                            "number": 24,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 22173,
+                            "player": "A. Saint-Maximin",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 19166,
+                            "player": "D. Gayle",
+                            "number": 12,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 34,
+                            "player_id": 723,
+                            "player": "Joelinton",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 25353,
+                            "player": "V. Lazaro",
+                            "number": 23,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18901,
+                            "player": "S. Longstaff",
+                            "number": 36,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 409,
+                            "player": "N. Bentaleb",
+                            "number": 42,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18897,
+                            "player": "D. Yedlin",
+                            "number": 22,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 18885,
+                            "player": "K. Darlow",
+                            "number": 26,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 34,
+                            "player_id": 2806,
+                            "player": "F. Schär",
+                            "number": 5,
+                            "pos": "D"
+                        }
+                    ]
+                }
+            }
         },
         {
             "responseFixture": {
@@ -1988,7 +3238,279 @@
                     "detail": "Yellow Card",
                     "comments": "Tripping"
                 }
-            ]
+            ],
+            "lineups": {
+                "Burnley": {
+                    "coach": "S. Dyche",
+                    "coach_id": 7,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 44,
+                            "player_id": 18911,
+                            "player": "N. Pope",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18912,
+                            "player": "P. Bardsley",
+                            "number": 26,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18917,
+                            "player": "B. Mee",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 2936,
+                            "player": "J. Tarkowski",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18918,
+                            "player": "C. Taylor",
+                            "number": 3,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18922,
+                            "player": "J. Cork",
+                            "number": 4,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18926,
+                            "player": "A. Westwood",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18924,
+                            "player": "J. Hendrick",
+                            "number": 13,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 19169,
+                            "player": "J. Rodriguez",
+                            "number": 19,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18931,
+                            "player": "C. Wood",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18929,
+                            "player": "D. McNeil",
+                            "number": 11,
+                            "pos": "M"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 44,
+                            "player_id": 18930,
+                            "player": "M. Vydra",
+                            "number": 27,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18925,
+                            "player": "A. Lennon",
+                            "number": 25,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18921,
+                            "player": "R. Brady",
+                            "number": 12,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18915,
+                            "player": "K. Long",
+                            "number": 28,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 21383,
+                            "player": "E. Pieters",
+                            "number": 23,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 19268,
+                            "player": "J. Brownhill",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 44,
+                            "player_id": 18908,
+                            "player": "J. Hart",
+                            "number": 20,
+                            "pos": "G"
+                        }
+                    ]
+                },
+                "Tottenham": {
+                    "coach": "José Mourinho",
+                    "coach_id": 2462,
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "team_id": 47,
+                            "player_id": 159,
+                            "player": "H. Lloris",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 170,
+                            "player": "J. Vertonghen",
+                            "number": 5,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 162,
+                            "player": "T. Alderweireld",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 168,
+                            "player": "D. Sánchez",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 149550,
+                            "player": "J. Tanganga",
+                            "number": 39,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 176,
+                            "player": "E. Lamela",
+                            "number": 11,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 172,
+                            "player": "D. Alli",
+                            "number": 20,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 175,
+                            "player": "E. Dier",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 662,
+                            "player": "T. NDombèlé",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 180,
+                            "player": "O. Skipp",
+                            "number": 29,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 244,
+                            "player": "S. Bergwijn",
+                            "number": 23,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 47,
+                            "player_id": 178,
+                            "player": "Lucas Moura",
+                            "number": 27,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 1578,
+                            "player": "G. Lo Celso",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 163,
+                            "player": "S. Aurier",
+                            "number": 24,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 569,
+                            "player": "Gedson Fernandes",
+                            "number": 30,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 182,
+                            "player": "H. Winks",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 158,
+                            "player": "P. Gazzaniga",
+                            "number": 22,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 19032,
+                            "player": "R. Sessegnon",
+                            "number": 19,
+                            "pos": "M"
+                        }
+                    ]
+                }
+            }
         }
     ]
 }

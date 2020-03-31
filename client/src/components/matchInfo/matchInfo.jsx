@@ -49,7 +49,7 @@ class MatchInfo extends React.Component {
             awayLogo = this.state.matchStats.responseFixture.awayTeam.logo
             goalsHomeTeam = this.state.matchStats.responseFixture.goalsHomeTeam
             goalsAwayTeam = this.state.matchStats.responseFixture.goalsAwayTeam
-            console.log(this.state.matchStats)
+            // console.log(this.state.matchStats)
         }
         else {
             // console.log("hello");

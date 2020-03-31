@@ -52,19 +52,20 @@ router.get("/fixtures/generate", (_, res) => {
         //         "timezone": "Europe/London"
         //     }
         // })
-    ]).then((response) => {
-        response.forEach(responseData => {
+    ]).then((responseLeague) => {
+        responseLeague.forEach(league => {
 
             // rescount = 0
             var league_array = [];
-            Promise.all(responseData.data.api.fixtures.slice(0).map(responseFixture => {
-                const fixture = { responseFixture }
+            Promise.all(league.data.api.fixtures.slice(0).map(leagueFixture => {
+                const fixture = { leagueFixture }
 
                 // if (rescount <= 1) {
+                // console.log(responseFixture.fixture_id)
                 // EPL BELOW
                 return axios({
                     "method": "GET",
-                    "url": "https://api-football-v1.p.rapidapi.com/v2/lineups/" + responseFixture.fixture_id,
+                    "url": "https://api-football-v1.p.rapidapi.com/v2/lineups/" + leagueFixture.fixture_id,
                     "headers": {
                         "content-type": "application/octet-stream",
                         "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
@@ -72,40 +73,41 @@ router.get("/fixtures/generate", (_, res) => {
                     }, "params": {
                         "timezone": "Europe/London"
                     }
-                }).then((response) => {
-                    console.log(response.data)
-                    console.log("lineups")
-                    fixture.lineups = response.data.api.lineups
-                    return axios({
-                        "method": "GET",
-                        "url": "https://api-football-v1.p.rapidapi.com/v2/statistics/fixture/" + responseFixture.fixture_id,
-                        "headers": {
-                            "content-type": "application/octet-stream",
-                            "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
-                            "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
-                        }, "params": {
-                            "timezone": "Europe/London"
-                        }
-                    })
-                }).then((response) => {
-                    console.log(response.data)
-                    console.log("stats")
-                    fixture.stats = response.data.api.statistics
-                    return axios({
-                        "method": "GET",
-                        "url": "https://api-football-v1.p.rapidapi.com/v2/events/" + responseFixture.fixture_id,
-                        "headers": {
-                            "content-type": "application/octet-stream",
-                            "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
-                            "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
-                        }, "params": {
-                            "timezone": "Europe/London"
-                        }
-                    })
-                }).then((response) => {
-                    console.log(response.data)
-                    console.log("events")
-                    fixture.events = response.data.api.events
+                }).then((lineups) => {
+                    console.log(lineups.data.api.lineUps)
+                    // console.log("lineups")
+                    fixture.lineups = lineups.data.api.lineUps
+                    // console.log(fixture);
+                    //     return axios({
+                    //         "method": "GET",
+                    //         "url": "https://api-football-v1.p.rapidapi.com/v2/statistics/fixture/" + leagueFixture.fixture_id,
+                    //         "headers": {
+                    //             "content-type": "application/octet-stream",
+                    //             "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
+                    //             "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
+                    //         }, "params": {
+                    //             "timezone": "Europe/London"
+                    //         }
+                    //     })
+                    // }).then((stats) => {
+                    //     console.log(stats.data)
+                    //     console.log("stats")
+                    //     fixture.stats = stats.data.api.statistics
+                    // return axios({
+                    //     "method": "GET",
+                    //     "url": "https://api-football-v1.p.rapidapi.com/v2/events/" + leagueFixture.fixture_id,
+                    //     "headers": {
+                    //         "content-type": "application/octet-stream",
+                    //         "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
+                    //         "x-rapidapi-key": "6b5ca05e55mshb0e3216e47a54acp1192aajsna0ef871f4f24"
+                    //     }, "params": {
+                    //         "timezone": "Europe/London"
+                    //     }
+                    // })
+                    // }).then((events) => {
+                    //     console.log(events.data.api.events)
+                    //     console.log("events")
+                    //     fixture.events = events.data.api.events
                     return fixture;
                 }).catch(err => {
                     res.status(400).send("Could not fetch data")
@@ -121,8 +123,8 @@ router.get("/fixtures/generate", (_, res) => {
                 });
             })
         })
-        console.log('imaddata')
-        console.log(jsonData)
+        // console.log('imaddata')
+        // console.log(jsonData)
         // console.log('imajson')
         // console.log(JSON.stringify(jsonData))
 
