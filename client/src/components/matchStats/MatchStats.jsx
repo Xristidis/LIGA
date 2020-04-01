@@ -7,16 +7,7 @@ class MatchStats extends React.Component {
         if (!this.props.matchEvents.responseFixture && !this.props.matchEvents.events) {
             return null
         }
-        // let homeLogo = ""
-        // let awayLogo = ""
-        // let awayTeamName = ""
         let { matchEvents } = this.props;
-        //     console.log(this.state.matchStats.responseFixture.homeTeam.team_name);
-        // awayTeamName = this.props.matchEvents.responseFixture.awayTeam.team_name
-        // homeLogo = this.props.matchEvents.responseFixture.homeTeam.logo
-        // awayLogo = this.props.matchEvents.responseFixture.awayTeam.logo
-        // goalsHomeTeam = this.state.matchEvents.responseFixture.goalsHomeTeam
-        // goalsAwayTeam = this.state.matchStats.responseFixture.goalsAwayTeam
         let shotsTargetHome = this.props.matchEvents.stats["Shots on Goal"].home
         let shotsTargetAway = this.props.matchEvents.stats["Shots on Goal"].away
         let shotsHome = this.props.matchEvents.stats["Total Shots"].home
@@ -31,8 +22,6 @@ class MatchStats extends React.Component {
         let yellowAway = this.props.matchEvents.stats["Yellow Cards"].away
         let redHome = this.props.matchEvents.stats["Red Cards"].home
         let redAway = this.props.matchEvents.stats["Red Cards"].away
-        // console.log("HELLO")
-        console.log(this.props.matchEvents)
         return (
             <section className="stats">
                 <div className="stats__stat-wrapper">
