@@ -39,7 +39,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Eibar": {
           "coach": "Mendilibar",
           "coach_id": 1598,
@@ -640,7 +640,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Atletico Madrid": {
           "coach": "D. Simeone",
           "coach_id": 1595,
@@ -1241,7 +1241,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Barcelona": {
           "coach": "Quique Setién",
           "coach_id": 2894,
@@ -1803,7 +1803,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Getafe": {
           "coach": "José Bordalás",
           "coach_id": 1596,
@@ -2417,7 +2417,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Osasuna": {
           "coach": "Arrasate",
           "coach_id": 1588,
@@ -2979,7 +2979,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Valladolid": {
           "coach": "Sergio",
           "coach_id": 1600,
@@ -3541,7 +3541,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Levante": {
           "coach": "Paco López",
           "coach_id": 1592,
@@ -4103,7 +4103,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Villarreal": {
           "coach": "Javi Calleja",
           "coach_id": 1589,
@@ -4691,7 +4691,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Real Betis": {
           "coach": "Rubí",
           "coach_id": 1599,
@@ -5786,7 +5786,7 @@
           "comments": null
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Wolves": {
           "coach": "Nuno Espírito Santo",
           "coach_id": 16,
@@ -6296,7 +6296,7 @@
           "comments": null
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Arsenal": {
           "coach": "Mikel Arteta",
           "coach_id": 7248,
@@ -6845,7 +6845,7 @@
           "comments": "Roughing"
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Crystal Palace": {
           "coach": "R. Hodgson",
           "coach_id": 9,
@@ -7316,7 +7316,7 @@
           "comments": null
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Sheffield Utd": {
           "coach": "C. Wilder",
           "coach_id": 6,
@@ -7826,7 +7826,7 @@
           "comments": "Unsportsmanlike conduct"
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Southampton": {
           "coach": "R. Hasenhüttl",
           "coach_id": 8,
@@ -8414,7 +8414,7 @@
           "comments": "Tripping"
         }
       ],
-      "lineups": {
+      "lineUps": {
         "Burnley": {
           "coach": "S. Dyche",
           "coach_id": 7,
@@ -8726,7 +8726,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Chelsea": {
           "coach": "F. Lampard",
           "coach_id": 20,
@@ -9275,7 +9275,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Manchester United": {
           "coach": "O. Solskjær",
           "coach_id": 19,
@@ -9837,7 +9837,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Atletico Madrid": {
           "coach": "D. Simeone",
           "coach_id": 1595,
@@ -10215,7 +10215,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Atalanta": {
           "coach": "G. Gasperini",
           "coach_id": 2393,
@@ -10593,7 +10593,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Tottenham": {
           "coach": "José Mourinho",
           "coach_id": 2462,
@@ -10971,7 +10971,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Chelsea": {
           "coach": "F. Lampard",
           "coach_id": 20,
@@ -11349,7 +11349,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Napoli": {
           "coach": "G. Gattuso",
           "coach_id": 2913,
@@ -11727,7 +11727,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Real Madrid": {
           "coach": "Z. Zidane",
           "coach_id": 1584,
@@ -12105,7 +12105,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Lyon": {
           "coach": "R. Garcia",
           "coach_id": 2551,
@@ -12483,7 +12483,7 @@
           "penalty": null
         }
       },
-      "lineups": {
+      "lineUps": {
         "Paris Saint Germain": {
           "coach": "T. Tuchel",
           "coach_id": 40,

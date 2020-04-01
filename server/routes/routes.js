@@ -7,7 +7,7 @@ const fs = require('fs');
 const scoresFilePath = require('../data/scores.json');
 const dataFilePath = require('../data/data.json');
 const statsFilePath = require('../data/cl-8th.json');
-const lineupsFilePath = require('../data/lineups.json');
+const lineUpsFilePath = require('../data/lineUps.json');
 
 const newScoresObj = { matchData: [] };
 
@@ -58,7 +58,7 @@ router.get("/fixtures/generate", (_, res) => {
                 // EPL BELOW
                 return axios({
                     "method": "GET",
-                    "url": "https://api-football-v1.p.rapidapi.com/v2/lineups/" + responseFixture.fixture_id,
+                    "url": "https://api-football-v1.p.rapidapi.com/v2/lineUps/" + responseFixture.fixture_id,
                     "headers": {
                         "content-type": "application/octet-stream",
                         "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
@@ -66,10 +66,10 @@ router.get("/fixtures/generate", (_, res) => {
                     }, "params": {
                         "timezone": "Europe/London"
                     }
-                }).then((lineups) => {
-                    console.log(lineups.data.api.lineUps)
-                    // console.log("lineups")
-                    fixture.lineups = lineups.data.api.lineUps
+                }).then((lineUps) => {
+                    console.log(lineUps.data.api.lineUps)
+                    // console.log("lineUps")
+                    fixture.lineUps = lineUps.data.api.lineUps
                     console.log(fixture);
                     return axios({
                         "method": "GET",
