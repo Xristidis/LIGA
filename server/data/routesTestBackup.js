@@ -20,7 +20,7 @@ router.get("/fixtures/generate", (_, res) => {
         // EPL BELOW
         axios({
             "method": "GET",
-            "url": "https://api-football-v1.p.rapidapi.com/v2/fixtures/league/524/2020-03-07",
+            "url": "https://api-football-v1.p.rapidapi.com/v2/fixtures/league/524/2020-03-08",
             "headers": {
                 "content-type": "application/octet-stream",
                 "x-rapidapi-host": "api-football-v1.p.rapidapi.com",

@@ -64,8 +64,8 @@
         justify-content: end;
     }
     &__player-pos {
-        margin-right: 10px;
-        width: 15%;
+        margin-right: 0px; // was at 10px
+        width: 0%; // was at 15%
         text-align: initial;
     }
     &__player-number-wrapper {

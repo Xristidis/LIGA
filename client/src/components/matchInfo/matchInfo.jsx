@@ -17,7 +17,6 @@ class MatchInfo extends React.Component {
     };
 
     componentDidMount() {
-        // console.log(this.props.match.params.match);
         axios
             .get(`http://localhost:8080/match/${this.props.match.params.match}`)
             .then(res => {
@@ -29,9 +28,7 @@ class MatchInfo extends React.Component {
 
     handleTabChange = (currTab) => {
         this.setState({ currTab: currTab });
-
     }
-
 
     render() {
         let homeTeamName = ""
@@ -52,11 +49,8 @@ class MatchInfo extends React.Component {
             // console.log(this.state.matchStats)
         }
         else {
-            // console.log("hello");
         }
-        // console.log(homeTeamName);
         const { match } = this.props
-
         return (
             <section className="matchInfo-wrapper">
                 <div className="matchInfo">
@@ -77,16 +71,7 @@ class MatchInfo extends React.Component {
                         <div className="matchInfo__team-name">{awayTeamName}</div>
                     </div>
                 </div>
-                {/* <div className="info__teams">
-                    <div className="info__home-team">Napoli</div>
-                    <div className="info__away-team">Barcelona</div>
-                </div>
-                <div className="info__scoreline">
-                    <div className="info__home-score">2</div>
-                    <div className="info__away-score">0</div>
-                </div> */}
                 <MatchInfoNav handleTabChange={this.handleTabChange} />
-
                 {/* {this.state.currTab === 'info' && <MatchEvents matchEvents={this.state.matchStats} />} */}
                 {this.state.currTab === 'stats' && <MatchStats matchEvents={this.state.matchStats} />}
                 {this.state.currTab === 'lineup' && <MatchLineups matchEvents={this.state.matchStats} />}

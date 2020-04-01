@@ -8,7 +8,6 @@ import uefa from "../../assets/uefa-logo.png";
 import epl from "../../assets/epl-logo.png";
 import liga from "../../assets/liga-logo.png";
 
-
 class Homepage extends React.Component {
 
     state = {
@@ -37,7 +36,6 @@ class Homepage extends React.Component {
         }
         this.setState({ leaguePath: pathName, logo });
         return leagueId;
-
     }
 
     componentDidMount() {

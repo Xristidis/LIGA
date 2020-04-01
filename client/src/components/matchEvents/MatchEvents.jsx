@@ -9,7 +9,7 @@ class MatchEvents extends React.Component {
             return null
         }
 
-
+        // COMPONENT UI SOON TO COME 
         // let venue = ""
         let homeLogo = ""
         let awayLogo = ""
@@ -22,7 +22,6 @@ class MatchEvents extends React.Component {
         // goalsHomeTeam = this.state.matchEvents.responseFixture.goalsHomeTeam
         // goalsAwayTeam = this.state.matchStats.responseFixture.goalsAwayTeam
         let venue = this.props.matchEvents.responseFixture.venue
-        // console.log("HELLO")
         console.log(this.props.matchEvents)
 
         return (

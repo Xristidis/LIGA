@@ -9800,6 +9800,318 @@
         },
         {
             "responseFixture": {
+                "fixture_id": 292852,
+                "league_id": 530,
+                "league": {
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/leagues/132.png",
+                    "flag": null
+                },
+                "event_date": "2020-02-18T20:00:00+00:00",
+                "event_timestamp": 1582056000,
+                "firstHalfStart": 1582056000,
+                "secondHalfStart": 1582059600,
+                "round": "8th Finals",
+                "status": "Match Finished",
+                "statusShort": "FT",
+                "elapsed": 90,
+                "venue": "Signal-Iduna-Park (Dortmund)",
+                "referee": "Antonio Mateu",
+                "homeTeam": {
+                    "team_id": 165,
+                    "team_name": "Borussia Dortmund",
+                    "logo": "https://media.api-sports.io/teams/165.png"
+                },
+                "awayTeam": {
+                    "team_id": 85,
+                    "team_name": "Paris Saint Germain",
+                    "logo": "https://media.api-sports.io/teams/85.png"
+                },
+                "goalsHomeTeam": 2,
+                "goalsAwayTeam": 1,
+                "score": {
+                    "halftime": "0-0",
+                    "fulltime": "2-1",
+                    "extratime": null,
+                    "penalty": null
+                }
+            },
+            "lineups": {
+                "Borussia Dortmund": {
+                    "coach": "L. Favre",
+                    "coach_id": 1530,
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "team_id": 165,
+                            "player_id": 1,
+                            "player": "R. Bürki",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 501,
+                            "player": "M. Hummels",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 10,
+                            "player": "Ł. Piszczek",
+                            "number": 26,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 8,
+                            "player": "Raphaël Guerreiro",
+                            "number": 13,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 9,
+                            "player": "A. Hakimi",
+                            "number": 5,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 13,
+                            "player": "D. Zagadou",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 20,
+                            "player": "A. Witsel",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 864,
+                            "player": "E. Can",
+                            "number": 27,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 18,
+                            "player": "J. Sancho",
+                            "number": 7,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 2929,
+                            "player": "T. Hazard",
+                            "number": 23,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 1100,
+                            "player": "E. Håland",
+                            "number": 17,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 165,
+                            "player_id": 161921,
+                            "player": "G. Reyna",
+                            "number": 32,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 11,
+                            "player": "M. Schmelzer",
+                            "number": 29,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 16,
+                            "player": "M. Götze",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 14,
+                            "player": "M. Dahoud",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 5,
+                            "player": "M. Akanji",
+                            "number": 16,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 2,
+                            "player": "M. Hitz",
+                            "number": 35,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 165,
+                            "player_id": 721,
+                            "player": "N. Schulz",
+                            "number": 14,
+                            "pos": "D"
+                        }
+                    ]
+                },
+                "Paris Saint Germain": {
+                    "coach": "T. Tuchel",
+                    "coach_id": 40,
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "team_id": 85,
+                            "player_id": 731,
+                            "player": "K. Navas",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 259,
+                            "player": "Thiago Silva",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 264,
+                            "player": "T. Meunier",
+                            "number": 12,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 263,
+                            "player": "L. Kurzawa",
+                            "number": 20,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 257,
+                            "player": "Marquinhos",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 262,
+                            "player": "P. Kimpembe",
+                            "number": 3,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 266,
+                            "player": "Á. Di María",
+                            "number": 11,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 273,
+                            "player": "M. Verratti",
+                            "number": 6,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 2990,
+                            "player": "I. Gueye",
+                            "number": 27,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 276,
+                            "player": "Neymar",
+                            "number": 10,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 278,
+                            "player": "K. Mbappé",
+                            "number": 7,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 85,
+                            "player_id": 2056,
+                            "player": "Pablo Sarabia",
+                            "number": 19,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 19014,
+                            "player": "Sergio Rico",
+                            "number": 16,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 261,
+                            "player": "T. Kehrer",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 133110,
+                            "player": "N. Kouassi",
+                            "number": 35,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 274,
+                            "player": "E. Cavani",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 216,
+                            "player": "M. Icardi",
+                            "number": 18,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 85,
+                            "player_id": 267,
+                            "player": "J. Draxler",
+                            "number": 23,
+                            "pos": "M"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "responseFixture": {
                 "fixture_id": 292854,
                 "league_id": 530,
                 "league": {
@@ -10107,72 +10419,6 @@
                             "pos": "D"
                         }
                     ]
-                }
-            },
-            "stats": {
-                "Shots on Goal": {
-                    "home": "2",
-                    "away": "0"
-                },
-                "Shots off Goal": {
-                    "home": "5",
-                    "away": "6"
-                },
-                "Total Shots": {
-                    "home": "7",
-                    "away": "8"
-                },
-                "Blocked Shots": {
-                    "home": "0",
-                    "away": "2"
-                },
-                "Shots insidebox": {
-                    "home": "2",
-                    "away": "4"
-                },
-                "Shots outsidebox": {
-                    "home": "5",
-                    "away": "4"
-                },
-                "Fouls": {
-                    "home": "11",
-                    "away": "13"
-                },
-                "Corner Kicks": {
-                    "home": "2",
-                    "away": "7"
-                },
-                "Offsides": {
-                    "home": "5",
-                    "away": "1"
-                },
-                "Ball Possession": {
-                    "home": "27%",
-                    "away": "73%"
-                },
-                "Yellow Cards": {
-                    "home": "1",
-                    "away": "2"
-                },
-                "Red Cards": {
-                    "home": null,
-                    "away": null
-                },
-                "Goalkeeper Saves": {
-                    "home": "0",
-                    "away": "1"
-                },
-                "Total passes": {
-                    "home": "277",
-                    "away": "723"
-                },
-                "Passes accurate": {
-                    "home": "187",
-                    "away": "618"
-                },
-                "Passes %": {
-                    "home": "68%",
-                    "away": "85%"
                 }
             }
         },
@@ -10486,72 +10732,6 @@
                         }
                     ]
                 }
-            },
-            "stats": {
-                "Shots on Goal": {
-                    "home": "5",
-                    "away": "4"
-                },
-                "Shots off Goal": {
-                    "home": "5",
-                    "away": "10"
-                },
-                "Total Shots": {
-                    "home": "11",
-                    "away": "18"
-                },
-                "Blocked Shots": {
-                    "home": "1",
-                    "away": "4"
-                },
-                "Shots insidebox": {
-                    "home": "7",
-                    "away": "15"
-                },
-                "Shots outsidebox": {
-                    "home": "4",
-                    "away": "3"
-                },
-                "Fouls": {
-                    "home": "19",
-                    "away": "9"
-                },
-                "Corner Kicks": {
-                    "home": "6",
-                    "away": "4"
-                },
-                "Offsides": {
-                    "home": "1",
-                    "away": "2"
-                },
-                "Ball Possession": {
-                    "home": "51%",
-                    "away": "49%"
-                },
-                "Yellow Cards": {
-                    "home": "1",
-                    "away": "0"
-                },
-                "Red Cards": {
-                    "home": null,
-                    "away": null
-                },
-                "Goalkeeper Saves": {
-                    "home": "3",
-                    "away": "1"
-                },
-                "Total passes": {
-                    "home": "486",
-                    "away": "454"
-                },
-                "Passes accurate": {
-                    "home": "385",
-                    "away": "368"
-                },
-                "Passes %": {
-                    "home": "79%",
-                    "away": "81%"
-                }
             }
         },
         {
@@ -10864,72 +11044,6 @@
                         }
                     ]
                 }
-            },
-            "stats": {
-                "Shots on Goal": {
-                    "home": "5",
-                    "away": "5"
-                },
-                "Shots off Goal": {
-                    "home": "5",
-                    "away": "4"
-                },
-                "Total Shots": {
-                    "home": "12",
-                    "away": "16"
-                },
-                "Blocked Shots": {
-                    "home": "2",
-                    "away": "7"
-                },
-                "Shots insidebox": {
-                    "home": "7",
-                    "away": "11"
-                },
-                "Shots outsidebox": {
-                    "home": "5",
-                    "away": "5"
-                },
-                "Fouls": {
-                    "home": "11",
-                    "away": "17"
-                },
-                "Corner Kicks": {
-                    "home": "6",
-                    "away": "7"
-                },
-                "Offsides": {
-                    "home": "2",
-                    "away": "5"
-                },
-                "Ball Possession": {
-                    "home": "43%",
-                    "away": "57%"
-                },
-                "Yellow Cards": {
-                    "home": "3",
-                    "away": "3"
-                },
-                "Red Cards": {
-                    "home": null,
-                    "away": null
-                },
-                "Goalkeeper Saves": {
-                    "home": "4",
-                    "away": "5"
-                },
-                "Total passes": {
-                    "home": "434",
-                    "away": "565"
-                },
-                "Passes accurate": {
-                    "home": "345",
-                    "away": "480"
-                },
-                "Passes %": {
-                    "home": "79%",
-                    "away": "85%"
-                }
             }
         },
         {
@@ -11241,72 +11355,6 @@
                             "pos": "M"
                         }
                     ]
-                }
-            },
-            "stats": {
-                "Shots on Goal": {
-                    "home": "3",
-                    "away": "6"
-                },
-                "Shots off Goal": {
-                    "home": "6",
-                    "away": "8"
-                },
-                "Total Shots": {
-                    "home": "9",
-                    "away": "16"
-                },
-                "Blocked Shots": {
-                    "home": "0",
-                    "away": "2"
-                },
-                "Shots insidebox": {
-                    "home": "7",
-                    "away": "12"
-                },
-                "Shots outsidebox": {
-                    "home": "2",
-                    "away": "4"
-                },
-                "Fouls": {
-                    "home": "7",
-                    "away": "10"
-                },
-                "Corner Kicks": {
-                    "home": "3",
-                    "away": "5"
-                },
-                "Offsides": {
-                    "home": "2",
-                    "away": "0"
-                },
-                "Ball Possession": {
-                    "home": "36%",
-                    "away": "64%"
-                },
-                "Yellow Cards": {
-                    "home": "1",
-                    "away": "2"
-                },
-                "Red Cards": {
-                    "home": "1",
-                    "away": "0"
-                },
-                "Goalkeeper Saves": {
-                    "home": "3",
-                    "away": "3"
-                },
-                "Total passes": {
-                    "home": "394",
-                    "away": "692"
-                },
-                "Passes accurate": {
-                    "home": "317",
-                    "away": "610"
-                },
-                "Passes %": {
-                    "home": "80%",
-                    "away": "88%"
                 }
             }
         },
@@ -12446,6 +12494,762 @@
         },
         {
             "responseFixture": {
+                "fixture_id": 292857,
+                "league_id": 530,
+                "league": {
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/leagues/132.png",
+                    "flag": null
+                },
+                "event_date": "2020-03-10T20:00:00+00:00",
+                "event_timestamp": 1583870400,
+                "firstHalfStart": 1583870400,
+                "secondHalfStart": 1583874000,
+                "round": "8th Finals",
+                "status": "Match Finished",
+                "statusShort": "FT",
+                "elapsed": 90,
+                "venue": "Estadio de Mestalla (Valencia)",
+                "referee": "O. Hațegan",
+                "homeTeam": {
+                    "team_id": 532,
+                    "team_name": "Valencia",
+                    "logo": "https://media.api-sports.io/teams/532.png"
+                },
+                "awayTeam": {
+                    "team_id": 499,
+                    "team_name": "Atalanta",
+                    "logo": "https://media.api-sports.io/teams/499.png"
+                },
+                "goalsHomeTeam": 3,
+                "goalsAwayTeam": 4,
+                "score": {
+                    "halftime": "1-2",
+                    "fulltime": "3-4",
+                    "extratime": null,
+                    "penalty": null
+                }
+            },
+            "lineups": {
+                "Valencia": {
+                    "coach": "Celades",
+                    "coach_id": 1601,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 532,
+                            "player_id": 124,
+                            "player": "Jasper Cillessen",
+                            "number": 13,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 932,
+                            "player": "Daniel Wass",
+                            "number": 18,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 924,
+                            "player": "Francis Coquelin",
+                            "number": 17,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 916,
+                            "player": "Mouctar Diakhaby",
+                            "number": 12,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 918,
+                            "player": "José Luis Gayà",
+                            "number": 14,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 931,
+                            "player": "Ferrán Torres",
+                            "number": 20,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 928,
+                            "player": "Dani Parejo",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 926,
+                            "player": "Geoffrey Kondogbia",
+                            "number": 6,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 930,
+                            "player": "Carlos Soler",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 933,
+                            "player": "Kévin Gameiro",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 935,
+                            "player": "Rodrigo",
+                            "number": 19,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 532,
+                            "player_id": 911,
+                            "player": "Jaume Doménech",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 769,
+                            "player": "Alessandro Florenzi",
+                            "number": 25,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 919,
+                            "player": "Hugo Guillamón",
+                            "number": 33,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 923,
+                            "player": "Denis Cheryshev",
+                            "number": 11,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 927,
+                            "player": "Kang-in Lee",
+                            "number": 16,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 925,
+                            "player": "Gonçalo Guedes",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 532,
+                            "player_id": 937,
+                            "player": "Rubén Sobrino",
+                            "number": 23,
+                            "pos": "F"
+                        }
+                    ]
+                },
+                "Atalanta": {
+                    "coach": "G. Gasperini",
+                    "coach_id": 2393,
+                    "formation": "3-4-1-2",
+                    "startXI": [
+                        {
+                            "team_id": 499,
+                            "player_id": 31069,
+                            "player": "Marco Sportiello",
+                            "number": 57,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30421,
+                            "player": "Berat Djimsiti",
+                            "number": 19,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 1628,
+                            "player": "Mattia Caldara",
+                            "number": 3,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30428,
+                            "player": "José Luis Palomino",
+                            "number": 6,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30423,
+                            "player": "Hans Hateboer",
+                            "number": 33,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30432,
+                            "player": "Marten de Roon",
+                            "number": 15,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 2807,
+                            "player": "Remo Freuler",
+                            "number": 11,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30422,
+                            "player": "Robin Gosens",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 2763,
+                            "player": "Mario Pašalić",
+                            "number": 88,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30434,
+                            "player": "Josip Iličić",
+                            "number": 72,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 30433,
+                            "player": "Alejandro Gómez",
+                            "number": 10,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 499,
+                            "player_id": 30419,
+                            "player": "Francesco Rossi",
+                            "number": 31,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 2920,
+                            "player": "Timothy Castagne",
+                            "number": 21,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 37250,
+                            "player": "Lennart Czyborra",
+                            "number": 7,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 1938,
+                            "player": "Ruslan Malinovskyi",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 22174,
+                            "player": "Adrien Tameze",
+                            "number": 5,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 2493,
+                            "player": "Luis Muriel",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 499,
+                            "player_id": 2495,
+                            "player": "Duván Zapata",
+                            "number": 91,
+                            "pos": "F"
+                        }
+                    ]
+                }
+            },
+            "stats": {
+                "Shots on Goal": {
+                    "home": "7",
+                    "away": "5"
+                },
+                "Shots off Goal": {
+                    "home": "6",
+                    "away": "4"
+                },
+                "Total Shots": {
+                    "home": "16",
+                    "away": "11"
+                },
+                "Blocked Shots": {
+                    "home": "3",
+                    "away": "2"
+                },
+                "Shots insidebox": {
+                    "home": "7",
+                    "away": "9"
+                },
+                "Shots outsidebox": {
+                    "home": "9",
+                    "away": "2"
+                },
+                "Fouls": {
+                    "home": "13",
+                    "away": "12"
+                },
+                "Corner Kicks": {
+                    "home": "9",
+                    "away": "2"
+                },
+                "Offsides": {
+                    "home": "3",
+                    "away": "1"
+                },
+                "Ball Possession": {
+                    "home": "59%",
+                    "away": "41%"
+                },
+                "Yellow Cards": {
+                    "home": "4",
+                    "away": "1"
+                },
+                "Red Cards": {
+                    "home": null,
+                    "away": null
+                },
+                "Goalkeeper Saves": {
+                    "home": "1",
+                    "away": "4"
+                },
+                "Total passes": {
+                    "home": "530",
+                    "away": "366"
+                },
+                "Passes accurate": {
+                    "home": "430",
+                    "away": "265"
+                },
+                "Passes %": {
+                    "home": "81%",
+                    "away": "72%"
+                }
+            }
+        },
+        {
+            "responseFixture": {
+                "fixture_id": 292859,
+                "league_id": 530,
+                "league": {
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/leagues/132.png",
+                    "flag": null
+                },
+                "event_date": "2020-03-10T20:00:00+00:00",
+                "event_timestamp": 1583870400,
+                "firstHalfStart": 1583870400,
+                "secondHalfStart": 1583874000,
+                "round": "8th Finals",
+                "status": "Match Finished",
+                "statusShort": "FT",
+                "elapsed": 90,
+                "venue": "Red Bull Arena (Leipzig)",
+                "referee": "Carlos Del Cerro",
+                "homeTeam": {
+                    "team_id": 173,
+                    "team_name": "RB Leipzig",
+                    "logo": "https://media.api-sports.io/teams/173.png"
+                },
+                "awayTeam": {
+                    "team_id": 47,
+                    "team_name": "Tottenham",
+                    "logo": "https://media.api-sports.io/teams/47.png"
+                },
+                "goalsHomeTeam": 3,
+                "goalsAwayTeam": 0,
+                "score": {
+                    "halftime": "2-0",
+                    "fulltime": "3-0",
+                    "extratime": null,
+                    "penalty": null
+                }
+            },
+            "lineups": {
+                "RB Leipzig": {
+                    "coach": "J. Nagelsmann",
+                    "coach_id": 1545,
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "team_id": 173,
+                            "player_id": 1139,
+                            "player": "Péter Gulácsi",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1144,
+                            "player": "Lukas Klostermann",
+                            "number": 16,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1149,
+                            "player": "Dayot Upamecano",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1143,
+                            "player": "Marcel Halstenberg",
+                            "number": 23,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1146,
+                            "player": "Nordi Mukiele",
+                            "number": 22,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1157,
+                            "player": "Konrad Laimer",
+                            "number": 27,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1159,
+                            "player": "Marcel Sabitzer",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 227,
+                            "player": "Angeliño",
+                            "number": 3,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 269,
+                            "player": "Christopher Nkunku",
+                            "number": 18,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 794,
+                            "player": "Patrik Schick",
+                            "number": 21,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1166,
+                            "player": "Timo Werner",
+                            "number": 11,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 173,
+                            "player_id": 1142,
+                            "player": "Yvon Mvogo",
+                            "number": 28,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1153,
+                            "player": "Amadou Haidara",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1323,
+                            "player": "Dani Olmo",
+                            "number": 25,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1150,
+                            "player": "Tyler Adams",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 18767,
+                            "player": "Ademola Lookman",
+                            "number": 17,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1152,
+                            "player": "Emil Forsberg",
+                            "number": 10,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 173,
+                            "player_id": 1167,
+                            "player": "Yussuf Poulsen",
+                            "number": 9,
+                            "pos": "F"
+                        }
+                    ]
+                },
+                "Tottenham": {
+                    "coach": "M. Pochettino",
+                    "coach_id": 13,
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "team_id": 47,
+                            "player_id": 159,
+                            "player": "Hugo Lloris",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 149550,
+                            "player": "Japhet Tanganga",
+                            "number": 39,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 175,
+                            "player": "Eric Dier",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 162,
+                            "player": "Toby Alderweireld",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 163,
+                            "player": "Serge Aurier",
+                            "number": 24,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 182,
+                            "player": "Harry Winks",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 1578,
+                            "player": "Giovani Lo Celso",
+                            "number": 18,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 19032,
+                            "player": "Ryan Sessegnon",
+                            "number": 19,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 176,
+                            "player": "Érik Lamela",
+                            "number": 11,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 178,
+                            "player": "Lucas Moura",
+                            "number": 27,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 172,
+                            "player": "Dele Alli",
+                            "number": 20,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 47,
+                            "player_id": 158,
+                            "player": "Paulo Gazzaniga",
+                            "number": 22,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 154800,
+                            "player": "Malachi Walcott",
+                            "number": 64,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 170,
+                            "player": "Jan Vertonghen",
+                            "number": 5,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 569,
+                            "player": "Gedson Fernandes",
+                            "number": 30,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 662,
+                            "player": "Tanguy Ndombélé",
+                            "number": 28,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 180,
+                            "player": "Oliver Skipp",
+                            "number": 29,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 47,
+                            "player_id": 149551,
+                            "player": "Troy Parrott",
+                            "number": 52,
+                            "pos": "F"
+                        }
+                    ]
+                }
+            },
+            "stats": {
+                "Shots on Goal": {
+                    "home": "5",
+                    "away": "3"
+                },
+                "Shots off Goal": {
+                    "home": "4",
+                    "away": "2"
+                },
+                "Total Shots": {
+                    "home": "13",
+                    "away": "6"
+                },
+                "Blocked Shots": {
+                    "home": "4",
+                    "away": "1"
+                },
+                "Shots insidebox": {
+                    "home": "9",
+                    "away": "2"
+                },
+                "Shots outsidebox": {
+                    "home": "4",
+                    "away": "4"
+                },
+                "Fouls": {
+                    "home": "21",
+                    "away": "12"
+                },
+                "Corner Kicks": {
+                    "home": "6",
+                    "away": "3"
+                },
+                "Offsides": {
+                    "home": "3",
+                    "away": "1"
+                },
+                "Ball Possession": {
+                    "home": "54%",
+                    "away": "46%"
+                },
+                "Yellow Cards": {
+                    "home": "2",
+                    "away": "4"
+                },
+                "Red Cards": {
+                    "home": null,
+                    "away": null
+                },
+                "Goalkeeper Saves": {
+                    "home": "3",
+                    "away": "2"
+                },
+                "Total passes": {
+                    "home": "538",
+                    "away": "459"
+                },
+                "Passes accurate": {
+                    "home": "432",
+                    "away": "371"
+                },
+                "Passes %": {
+                    "home": "80%",
+                    "away": "81%"
+                }
+            }
+        },
+        {
+            "responseFixture": {
                 "fixture_id": 292853,
                 "league_id": 530,
                 "league": {
@@ -12819,6 +13623,384 @@
                 "Passes %": {
                     "home": "88%",
                     "away": "86%"
+                }
+            }
+        },
+        {
+            "responseFixture": {
+                "fixture_id": 292855,
+                "league_id": 530,
+                "league": {
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/leagues/132.png",
+                    "flag": null
+                },
+                "event_date": "2020-03-11T20:00:00+00:00",
+                "event_timestamp": 1583956800,
+                "firstHalfStart": 1583956800,
+                "secondHalfStart": 1583960400,
+                "round": "8th Finals",
+                "status": "Match Finished",
+                "statusShort": "AET",
+                "elapsed": 120,
+                "venue": "Anfield (Liverpool)",
+                "referee": "D. Makkelie",
+                "homeTeam": {
+                    "team_id": 40,
+                    "team_name": "Liverpool",
+                    "logo": "https://media.api-sports.io/teams/40.png"
+                },
+                "awayTeam": {
+                    "team_id": 530,
+                    "team_name": "Atletico Madrid",
+                    "logo": "https://media.api-sports.io/teams/530.png"
+                },
+                "goalsHomeTeam": 2,
+                "goalsAwayTeam": 3,
+                "score": {
+                    "halftime": "1-0",
+                    "fulltime": "1-0",
+                    "extratime": "2-3",
+                    "penalty": null
+                }
+            },
+            "lineups": {
+                "Liverpool": {
+                    "coach": "J. Klopp",
+                    "coach_id": 1,
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "team_id": 40,
+                            "player_id": 18812,
+                            "player": "Adrián",
+                            "number": 13,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 283,
+                            "player": "Trent Alexander-Arnold",
+                            "number": 66,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 284,
+                            "player": "Joe Gomez",
+                            "number": 12,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 290,
+                            "player": "Virgil van Dijk",
+                            "number": 4,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 289,
+                            "player": "Andrew Robertson",
+                            "number": 26,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 297,
+                            "player": "Alex Oxlade-Chamberlain",
+                            "number": 15,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 292,
+                            "player": "Jordan Henderson",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 300,
+                            "player": "Georginio Wijnaldum",
+                            "number": 5,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 306,
+                            "player": "Mohamed Salah",
+                            "number": 11,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 302,
+                            "player": "Roberto Firmino",
+                            "number": 9,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 304,
+                            "player": "Sadio Mané",
+                            "number": 10,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 40,
+                            "player_id": 20224,
+                            "player": "Andy Lonergan",
+                            "number": 22,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 286,
+                            "player": "Joël Matip",
+                            "number": 32,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 299,
+                            "player": "Fabinho",
+                            "number": 3,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 296,
+                            "player": "James Milner",
+                            "number": 7,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 295,
+                            "player": "Adam Lallana",
+                            "number": 20,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 305,
+                            "player": "Divock Origi",
+                            "number": 27,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 40,
+                            "player_id": 1101,
+                            "player": "Takumi Minamino",
+                            "number": 18,
+                            "pos": "F"
+                        }
+                    ]
+                },
+                "Atletico Madrid": {
+                    "coach": "D. Simeone",
+                    "coach_id": 1595,
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "team_id": 530,
+                            "player_id": 29,
+                            "player": "Jan Oblak",
+                            "number": 13,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 169,
+                            "player": "Kieran Trippier",
+                            "number": 23,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 39,
+                            "player": "Stefan Savić",
+                            "number": 15,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 371,
+                            "player": "Felipe",
+                            "number": 18,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 10122,
+                            "player": "Renan Lodi",
+                            "number": 12,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 53,
+                            "player": "Ángel Correa",
+                            "number": 10,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 50,
+                            "player": "Koke",
+                            "number": 6,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 49,
+                            "player": "Thomas Partey",
+                            "number": 5,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 48,
+                            "player": "Saúl Ñíguez",
+                            "number": 8,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 54,
+                            "player": "Diego Costa",
+                            "number": 19,
+                            "pos": "F"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 583,
+                            "player": "João Félix",
+                            "number": 7,
+                            "pos": "F"
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "team_id": 530,
+                            "player_id": 27,
+                            "player": "Antonio Adán",
+                            "number": 1,
+                            "pos": "G"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 199,
+                            "player": "Šime Vrsaljko",
+                            "number": 24,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 31,
+                            "player": "José Giménez",
+                            "number": 2,
+                            "pos": "D"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 753,
+                            "player": "Marcos Llorente",
+                            "number": 14,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 2923,
+                            "player": "Yannick Carrasco",
+                            "number": 21,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 45,
+                            "player": "Thomas Lemar",
+                            "number": 11,
+                            "pos": "M"
+                        },
+                        {
+                            "team_id": 530,
+                            "player_id": 59,
+                            "player": "Álvaro Morata",
+                            "number": 9,
+                            "pos": "F"
+                        }
+                    ]
+                }
+            },
+            "stats": {
+                "Shots on Goal": {
+                    "home": "11",
+                    "away": "6"
+                },
+                "Shots off Goal": {
+                    "home": "16",
+                    "away": "4"
+                },
+                "Total Shots": {
+                    "home": "34",
+                    "away": "10"
+                },
+                "Blocked Shots": {
+                    "home": "7",
+                    "away": "0"
+                },
+                "Shots insidebox": {
+                    "home": "23",
+                    "away": "4"
+                },
+                "Shots outsidebox": {
+                    "home": "11",
+                    "away": "6"
+                },
+                "Fouls": {
+                    "home": "17",
+                    "away": "17"
+                },
+                "Corner Kicks": {
+                    "home": "16",
+                    "away": "3"
+                },
+                "Offsides": {
+                    "home": "2",
+                    "away": "4"
+                },
+                "Ball Possession": {
+                    "home": "71%",
+                    "away": "29%"
+                },
+                "Yellow Cards": {
+                    "home": "1",
+                    "away": "2"
+                },
+                "Red Cards": {
+                    "home": null,
+                    "away": null
+                },
+                "Goalkeeper Saves": {
+                    "home": "3",
+                    "away": "9"
+                },
+                "Total passes": {
+                    "home": "852",
+                    "away": "363"
+                },
+                "Passes accurate": {
+                    "home": "712",
+                    "away": "215"
+                },
+                "Passes %": {
+                    "home": "84%",
+                    "away": "59%"
                 }
             }
         }
