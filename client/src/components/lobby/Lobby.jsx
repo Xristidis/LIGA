@@ -6,10 +6,7 @@ import epl from "../../assets/epl-logo.png";
 import liga from "../../assets/liga-logo.png"
 import uefa from "../../assets/uefa-logo.png"
 
-
 class Lobby extends React.Component {
-
-
     render() {
         return (
             <main className="lobby">
@@ -47,5 +44,4 @@ class Lobby extends React.Component {
         );
     }
 }
-
 export default Lobby;

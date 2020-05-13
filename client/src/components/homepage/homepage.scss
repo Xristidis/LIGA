@@ -13,18 +13,21 @@
         margin: auto; 
         background: url(../../assets/hero-image.png); 
         height: 150px;
-    background-size: cover;
-    background-position-y: 17%;
+        background-size: cover;
+        background-position-y: 17%;
     }
     &__heading-wrapper {
         width: 80px;
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    margin-left: -40px;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%,0);
+        @include tablet {
+        width: 100px;
+        }
     }
     &__image {
-        width: 50px;
+        width: 100%;
     }
     &__header {
         color: $mercury;

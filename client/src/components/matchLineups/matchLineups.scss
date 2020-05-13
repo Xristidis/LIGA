@@ -13,6 +13,11 @@
         flex-direction: column;
         width: 95%;
         margin: auto;
+        @include desktop {
+            margin: 0 auto 60px;
+            width: 47%;
+            max-width: 800px;
+        }
     }
     &__team-heading {
         display: flex;
@@ -20,6 +25,10 @@
         align-items: center;
         height: 75px;
         font-family: "martelSans";
+        @include tablet {
+            width: 90%;
+            margin: auto;
+        }
     }
     &__team-heading-info {
         height: 90%;

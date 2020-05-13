@@ -6,6 +6,11 @@
     background-color: $dark-blue;
     color: $mercury;
     padding: 0 0 95px 0;
+    @include desktop {
+        width: 80%;
+        margin: auto;
+        max-width: 1200px;
+    }
 
     &__stat-wrapper {
         display: flex;
@@ -28,6 +33,5 @@
         font-family: "kanit-extra-bold";
         font-size: 1.5rem;
         width: 25%;
-
     }
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import "../matchStats/matchStats.scss"
+
 class MatchStats extends React.Component {
-
-
     render() {
         if (!this.props.matchEvents.responseFixture && !this.props.matchEvents.events) {
             return null
@@ -63,5 +62,4 @@ class MatchStats extends React.Component {
         );
     }
 }
-
 export default MatchStats;

@@ -5,7 +5,6 @@ import login from "../../assets/login.png"
 import favs from "../../assets/favs.png"
 import { Link } from "react-router-dom";
 
-
 class Navbar extends React.Component {
     render() {
         return (
@@ -26,5 +25,4 @@ class Navbar extends React.Component {
         );
     }
 }
-
 export default Navbar;

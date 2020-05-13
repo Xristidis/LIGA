@@ -7,15 +7,12 @@ import hero from "../../assets/hero-image.png";
 import uefa from "../../assets/uefa-logo.png";
 import epl from "../../assets/epl-logo.png";
 import liga from "../../assets/liga-logo.png";
-
 class Homepage extends React.Component {
-
     state = {
         matchData: [],
         leaguePath: {},
         logo: ""
     };
-
     convertPathToId = () => {
         const pathName = this.props.location.pathname;
         let leagueId;
@@ -37,7 +34,6 @@ class Homepage extends React.Component {
         this.setState({ leaguePath: pathName, logo });
         return leagueId;
     }
-
     componentDidMount() {
         const leagueId = this.convertPathToId();
         console.log(leagueId)
@@ -49,10 +45,7 @@ class Homepage extends React.Component {
                 this.setState({ matchData: matchData });
             });
     }
-
     render() {
-        console.log(this.state.leagueId);
-        console.log(this.state.matchData);
         let logo = this.state.logo
         return (
             <main className="homepage">
@@ -71,5 +64,4 @@ class Homepage extends React.Component {
         );
     }
 }
-
 export default Homepage;

@@ -1,5 +1,5 @@
-// please ignore extra routes and json data files in folder tree as they are for phase 2 testing.
-
+// Ignore extra routes and json data files in folder tree as they are for phase 2 testing.
+////////////////////////////////////////////////////////////////////////////////////////////
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();

@@ -3,12 +3,10 @@ import "../matchEvents/matchEvents.scss"
 import yellow from "../../assets/yellow.png"
 
 class MatchEvents extends React.Component {
-
     render() {
         if (!this.props.matchEvents.responseFixture && !this.props.matchEvents.events) {
             return null
         }
-
         // COMPONENT UI SOON TO COME 
         // let venue = ""
         let homeLogo = ""

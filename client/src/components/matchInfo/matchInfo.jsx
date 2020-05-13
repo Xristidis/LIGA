@@ -7,15 +7,11 @@ import MatchStats from '../matchStats/MatchStats';
 import MatchLineups from '../matchLineups/MatchLineups';
 import axios from "axios";
 
-
-
 class MatchInfo extends React.Component {
-
     state = {
         currTab: "stats",
         matchStats: {},
     };
-
     componentDidMount() {
         axios
             .get(`http://localhost:8080/match/${this.props.match.params.match}`)
@@ -25,11 +21,9 @@ class MatchInfo extends React.Component {
                 this.setState({ matchStats: matchStats });
             });
     }
-
     handleTabChange = (currTab) => {
         this.setState({ currTab: currTab });
     }
-
     render() {
         let homeTeamName = ""
         let awayTeamName = ""
@@ -37,7 +31,6 @@ class MatchInfo extends React.Component {
         let awayLogo = ""
         let goalsHomeTeam = ""
         let goalsAwayTeam = ""
-
         if (this.state.matchStats.responseFixture !== undefined) {
             // console.log(this.state.matchStats.responseFixture.homeTeam.team_name);
             homeTeamName = this.state.matchStats.responseFixture.homeTeam.team_name
@@ -80,5 +73,4 @@ class MatchInfo extends React.Component {
         );
     }
 }
-
 export default MatchInfo;

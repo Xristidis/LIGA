@@ -4,7 +4,7 @@
 
 .match {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 90%;
     height: 90px;
@@ -18,9 +18,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        width: 30%;
-        height: 90%;
+        justify-content: center;
+        width: 20%;
+        height: 90px;
     }
     &__details-wrapper {
         display: flex;
@@ -31,11 +31,18 @@
     height: 90%;
     }
     &__team-logo {
-        width: 50%;
+        width: 60%;
+        @include tablet {
+            width: 40%;
+        }
+        @include desktop {
+            width: 24%;
+        }
     }
     &__team-name {
         font-size: .5rem;
-        font-family: "martel-regular";        
+        font-family: "martel-regular";  
+        margin-top: 2px;      
     }
 
     &__date {

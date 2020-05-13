@@ -1,9 +1,7 @@
 import React from 'react';
 import "../matchLineups/matchLineups.scss"
 class MatchLineups extends React.Component {
-
     render() {
-
         let homeTeamName = this.props.matchEvents.responseFixture.homeTeam.team_name
         let awayTeamName = this.props.matchEvents.responseFixture.awayTeam.team_name
         let homeLogo = this.props.matchEvents.responseFixture.homeTeam.logo
